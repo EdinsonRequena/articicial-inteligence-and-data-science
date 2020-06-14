@@ -3,7 +3,7 @@
 Tema: Algoritmo de enumeracion exahustiva.
 Curso: Pensamiento computacional
 Plataforma: Platzi
-Profesos: Davied Areosti
+Profesor: David Areosti
 
 """
 
