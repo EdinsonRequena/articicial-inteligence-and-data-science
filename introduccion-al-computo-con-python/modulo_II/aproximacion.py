@@ -1,9 +1,10 @@
 """
 
 Tema: Algoritmo de aproximacion.
-Curso: Pensamiento computacional
-Plataforma: Platzi
-Profesor: David Aroesti
+Curso: Pensamiento computacional.
+Plataforma: Platzi.
+Profesor: David Aroesti.
+Alumno: @edinsonrequena.
 
 """
 
