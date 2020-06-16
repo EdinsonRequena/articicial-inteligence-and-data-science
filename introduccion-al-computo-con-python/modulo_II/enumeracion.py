@@ -1,9 +1,10 @@
 """
 
 Tema: Algoritmo de enumeracion exahustiva.
-Curso: Pensamiento computacional
-Plataforma: Platzi
-Profesor: David Areosti
+Curso: Pensamiento computacional.
+Plataforma: Platzi.
+Profesor: David Aroesti.
+Alumno: @edinsonrequena.
 
 """
 
