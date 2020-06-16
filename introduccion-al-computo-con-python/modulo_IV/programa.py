@@ -2,7 +2,7 @@
 class Logica:
     def aproximacion(self):
         objetivo = int(input('Escoge un numero: '))
-        epsilon = 0.0001
+        epsilon = 0.01
         paso = epsilon**2 
         respuesta = 0.0
 
@@ -18,7 +18,7 @@ class Logica:
 
     def busqueda(self):
         objetivo = int(input('Escoge un numero: '))
-        epsilon = 0.0001
+        epsilon = 0.01
         bajo = 0.0
         alto = max(1.0, objetivo)
         respuesta = (alto + bajo) / 2
@@ -29,8 +29,8 @@ class Logica:
                 bajo = respuesta
             else:
                 alto = respuesta
-
-        respuesta = (alto + bajo) / 2
+            
+            respuesta = (alto + bajo) / 2
 
         print(f'La raiz cuadrada de {objetivo} es {respuesta}')
 
@@ -52,8 +52,12 @@ class App:
     def cli(self):
         print("*"*20 ,"Bienvenido, escribe la pirmera letra del algoritmo a ejecutar", "*"*20)
         print("[A]proximacion")
-        print("[B]uesqueda Binaria")
-        print("[A]proximacion")
+        print("[B]usqueda Binaria")
+        print("[E]numeracion")
+
+
+    def run(self):
+        self.cli()
 
         command = input('Escogeras la letra: ')
         command = command.upper()
@@ -66,4 +70,4 @@ class App:
             Logica().enumeracion()
 
 if __name__ == '__main__':
-    App().cli()
+    App().run()
