@@ -3,7 +3,8 @@
 Tema: Busqueda Binaria.
 Curso: Pensamiento computacional.
 Plataforma: Platzi.
-Profesor: David Areosti.
+Profesor: David Aroesti.
+Alumno: @edinsonrequena.
 
 """
 
