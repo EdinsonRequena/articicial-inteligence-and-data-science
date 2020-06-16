@@ -1,4 +1,12 @@
+"""
 
+Ejercicio: Crear un programa en el que el usuario pueda escoger cualquiera de los algoritmos creados en el modulo pasado.
+Curso: Pensamiento Computacional.
+Plataforma: Platzi.
+Profesor: David Aroesti.
+Alumno: @edinsonrequena.
+
+"""
 class Logica:
     def aproximacion(self):
         objetivo = int(input('Escoge un numero: '))
