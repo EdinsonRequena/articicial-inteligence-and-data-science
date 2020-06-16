@@ -7,7 +7,7 @@ Profesor: David Areosti
 
 """
 
-objetivo = int(input("Escribe un numero entero: "))
+objetivo = int(input("Escribe un numero: "))
 respuesta = 0
 
 while respuesta**2 < objetivo:
