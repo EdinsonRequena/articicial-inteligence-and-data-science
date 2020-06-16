@@ -1,3 +1,12 @@
+"""
+
+Tema: Busqueda Binaria.
+Curso: Pensamiento computacional.
+Plataforma: Platzi.
+Profesor: David Areosti.
+
+"""
+
 objetivo = int(input('Type a number: '))
 epsilon = 0.001
 bajo = 0.0
