@@ -1,3 +1,13 @@
+"""
+
+Ejercicio: Crear un programa en el que el se modifique el limite de recursion.
+Curso: Pensamiento Computacional.
+Plataforma: Platzi.
+Profesor: David Aroesti.
+Alumno: @edinsonrequena.
+
+"""
+
 # Importamos el modulo sys que nos permitira modificar la recursion
 import sys
 
