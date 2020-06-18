@@ -1,3 +1,13 @@
+"""
+
+Tema: Pruebas Unitarias.
+Curso: Pensamiento computacional.
+Plataforma: Platzi.
+Profesor: David Aroesti.
+Alumno: @edinsonrequena.
+
+"""
+
 import unittest
 
 def suma(num_1, num_2):
