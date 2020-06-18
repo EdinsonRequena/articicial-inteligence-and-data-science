@@ -1,7 +1,9 @@
 """
 
 Reto: Imprimir todos los numeros enteros (opuestos a naturales tambien) pares e impares dependiendo del valor n
-que escoja el usuario
+que escoja el usuario. 
+Le he sumado varios grados de complejidad al enunciado del problema.
+
 Curso: Pensamiento computacional.
 Plataforma: Platzi.
 Profesor: David Aroesti.
