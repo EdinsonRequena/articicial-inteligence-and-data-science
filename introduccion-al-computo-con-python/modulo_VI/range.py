@@ -12,7 +12,7 @@ Alumno: @edinsonrequena.
 """
 
 def pares(numero):
-    """ Imprime todos los numeros pares del 0 hasta n o de n hasta 0
+    """ Imprime todos los numeros pares existen entre 0 y n o entre n y 0
 
         int n 
         returns n    
@@ -29,7 +29,7 @@ def pares(numero):
             print(i)
 
 def impares(numero):
-    """imprime todo los numeros impares desde 1 hasta n o desde n hasta 1 
+    """imprime todo los numeros impares que existen entre 1 y n o entre n y 1 
     
         int n
         returns n
