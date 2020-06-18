@@ -31,3 +31,6 @@ print(my_list)
 my_list.remove(3) # Remueve el valor del elemento (no el indice). 
 # Si el elemento tiene el mismo valor que otro dentro de la lista se removera solo el de menor indice.
 print(my_list)
+
+for element in my_list: # Iteramos en los elementos de la lista.
+    print(element)
