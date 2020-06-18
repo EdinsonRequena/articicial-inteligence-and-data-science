@@ -42,3 +42,6 @@ for key in capitales.keys(): # Iteramos en las todas las llaves de capitales
 
 for value in capitales.values(): # Iteramos en todos los valores de capitales
     print(value) # Imprimimos todos los valores de capitales
+
+for key, value in capitales.items(): # Iteramos en las llaves y valores de capitales
+    print(key, value) # Imprimimos las llaves y valores de capitales
