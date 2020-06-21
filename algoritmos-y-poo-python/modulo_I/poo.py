@@ -7,7 +7,7 @@ Profesor: David Aroesti.
 Alumno: @edinsonrequena.
 
 """
-# Recordatorio, describir brevemente las lineas de codigo
+
 class Hotel:
     
     def __init__(self, numero_maximo_de_huespedes, lugares_de_estacionamiento): # Utilizamos el método especial __init__ 
@@ -16,7 +16,7 @@ class Hotel:
         self.lugares_de_estacionamiento = lugares_de_estacionamiento
         self.huespedes = 0
 
-
+    # Creamos las instancias que le daran funcionalidad a nuestra clase Hotel.
     def anadir_huespedes(self, cantidad_de_huespedes):
         self.huespedes += cantidad_de_huespedes
         return self.huespedes, cantidad_de_huespedes
@@ -28,10 +28,9 @@ class Hotel:
     def ocupacion_total(self):
         return self.huespedes
 
-
-
+# Definimos nuestras instancias.
 hotel = Hotel(50, 20)
 print(hotel.numero_maximo_de_huespedes, hotel.lugares_de_estacionamiento)
-print(hotel.anadir_huespedes(3))
-print(hotel.checkout(1))
+print(hotel.anadir_huespedes(60))
+print(hotel.checkout(10))
 print(hotel.ocupacion_total())
