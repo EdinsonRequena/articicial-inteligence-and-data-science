@@ -1,6 +1,6 @@
 """
 
-Tema: Programacion Orientada a Objetos.
+Tema: Programacion Orientada a Objetos. Encapsulacion y Decoradores.
 Curso: Pensamiento Computacional, 2da entrega.
 Plataforma: Platzi.
 Profesor: David Aroesti.
