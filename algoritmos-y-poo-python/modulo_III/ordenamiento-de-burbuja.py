@@ -10,7 +10,7 @@ import random
 
 def ordenamiento_burbuja(lista):
     ''' 
-    O(n) * O(n) = O(n * n) = O(n^2)
+    O(n) * O(n - i - 1) = O(n) * O(n) = O(n * n) = O(n^2)
 
     int n = []
     int n = len(n)
@@ -20,7 +20,10 @@ def ordenamiento_burbuja(lista):
 
     for i in range(n):
         for j in range(0, n - i - 1):
-            pass
+            if lista[j] > lista[j + 1]:
+                lista[j], lista[j + 1] = lista[j + 1], lista[j]
+    
+    return lista
 
 
 def main():
