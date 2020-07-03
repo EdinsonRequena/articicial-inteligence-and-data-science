@@ -8,11 +8,18 @@ Alumno: @edinsonrequena.
 
 import random
 
+def ordenamiento_por_mezcla(lista):
+    if len(lista) > 1:
+        medio = len(lista) // 2
+        izquierda = lista[:medio]
+        derecha = lista[medio:]
+
+
 def main():
     ''' 
     Funcion principal
     '''
-    
+
     tamano_de_lista = int(input('De que tamano sera la lista? '))
 
     lista = [random.randint(0, 100) for i in range(tamano_de_lista)]
