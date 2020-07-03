@@ -9,11 +9,25 @@ Alumno: @edinsonrequena.
 import random
 
 def ordenamiento_por_mezcla(lista):
+
+    # Caso base
     if len(lista) > 1:
         medio = len(lista) // 2
         izquierda = lista[:medio]
         derecha = lista[medio:]
 
+    # Llamada recursiva a cada mitad
+    ordenamiento_por_mezcla(izquierda) # Llamada de [:mitad]
+    ordenamiento_por_mezcla(derecha) # Llamada de [mitad:]
+
+    # Iteradores para recorrer las dos sublistas
+    i, j = 0, 0
+    # Iterador para la lista principal
+    k = 0
+
+    while i < len(izquierda) and j < len(derecha):
+        if izquierda[i] < derecha[j]:
+            pass
 
 def main():
     ''' 
