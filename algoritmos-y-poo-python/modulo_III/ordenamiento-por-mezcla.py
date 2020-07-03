@@ -6,3 +6,21 @@ Profesor: David Aroesti.
 Alumno: @edinsonrequena.
 """
 
+import random
+
+def main():
+    ''' 
+    Funcion principal
+    '''
+    
+    tamano_de_lista = int(input('De que tamano sera la lista? '))
+
+    lista = [random.randint(0, 100) for i in range(tamano_de_lista)]
+    print(lista)
+    print('-' * 20)
+
+    lista_ordenada = ordenamiento_por_mezcla(lista)
+    print(lista_ordenada)
+
+if __name__ == '__main__':
+    main()
