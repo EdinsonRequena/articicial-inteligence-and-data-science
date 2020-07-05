@@ -12,7 +12,7 @@ def ordenamiento_por_mezcla(lista):
 
     # Caso base
     if len(lista) > 1:
-        medio = len(lista) // 2
+        medio = len(lista) // 2 # Parte la lista a la mitad
         izquierda = lista[:medio]
         derecha = lista[medio:]
 
@@ -22,12 +22,29 @@ def ordenamiento_por_mezcla(lista):
 
     # Iteradores para recorrer las dos sublistas
     i, j = 0, 0
+
     # Iterador para la lista principal
     k = 0
 
-    while i < len(izquierda) and j < len(derecha):
+    while i < len(izquierda) and j < len(derecha): # Comparar las dos sublistas
         if izquierda[i] < derecha[j]:
-            pass
+            lista[k] = izquierda[i]
+            i += 1
+        elif derecha[j] < izquierda[i]:
+            lista[k] = derecha[j]
+            j += 1
+        
+        k += 1
+
+    while i < len(izquierda):
+        lista[k] = izquierda[i]
+        i += 1
+        k += 1
+
+    while j < len(derecha):
+        lista[k] = derecha[j]
+        j += 1
+        k += 1
 
 def main():
     ''' 
