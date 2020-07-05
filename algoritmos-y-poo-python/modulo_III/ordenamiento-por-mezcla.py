@@ -16,35 +16,37 @@ def ordenamiento_por_mezcla(lista):
         izquierda = lista[:medio]
         derecha = lista[medio:]
 
-    # Llamada recursiva a cada mitad
-    ordenamiento_por_mezcla(izquierda) # Llamada de [:mitad]
-    ordenamiento_por_mezcla(derecha) # Llamada de [mitad:]
+        # Llamada recursiva a cada mitad
+        ordenamiento_por_mezcla(izquierda) # Llamada de [:mitad]
+        ordenamiento_por_mezcla(derecha) # Llamada de [mitad:]
 
-    # Iteradores para recorrer las dos sublistas
-    i, j = 0, 0
+        # Iteradores para recorrer las dos sublistas
+        i, j = 0, 0
 
-    # Iterador para la lista principal
-    k = 0
+        # Iterador para la lista principal
+        k = 0
 
-    while i < len(izquierda) and j < len(derecha): # Comparar las dos sublistas
-        if izquierda[i] < derecha[j]:
+        while i < len(izquierda) and j < len(derecha): # Comparar las dos sublistas
+            if izquierda[i] < derecha[j]:
+                lista[k] = izquierda[i]
+                i += 1
+            elif derecha[j] < izquierda[i]:
+                lista[k] = derecha[j]
+                j += 1
+            
+            k += 1
+
+        while i < len(izquierda):
             lista[k] = izquierda[i]
             i += 1
-        elif derecha[j] < izquierda[i]:
+            k += 1
+
+        while j < len(derecha):
             lista[k] = derecha[j]
             j += 1
-        
-        k += 1
-
-    while i < len(izquierda):
-        lista[k] = izquierda[i]
-        i += 1
-        k += 1
-
-    while j < len(derecha):
-        lista[k] = derecha[j]
-        j += 1
-        k += 1
+            k += 1
+    
+    return lista
 
 def main():
     ''' 
