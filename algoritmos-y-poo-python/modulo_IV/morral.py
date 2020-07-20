@@ -20,7 +20,7 @@ def morral(tamano_morral, pesos, valores, n):
                 morral(tamano_morral, pesos, valores, n - 1))
 
 
-if __name__ == '__main__':
+def main():
     valores = [60, 100, 120]
     pesos = [10, 20, 30]
     tamano_morral = 5
@@ -28,3 +28,6 @@ if __name__ == '__main__':
 
     resultado = morral(tamano_morral, pesos, valores, n)
     print(resultado)
+
+if __name__ == '__main__':
+    main()
