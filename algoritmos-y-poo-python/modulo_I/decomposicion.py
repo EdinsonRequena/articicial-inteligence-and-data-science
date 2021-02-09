@@ -20,21 +20,18 @@ class Computadora:
 
 
     def encender(self, estado=False):
-        if estado:
-            self._temperatura += 20
-            print(f'La pc esta encencida, su temperatura es {self._temperatura}!')
-        else:
-            print(f'La pc esta apagada, su temperatura es {self._temperatura}')
+        if estado: self._temperatura += 20; print(f'La pc esta encencida, su temperatura es {self._temperatura}!')
+        else: print(f'La pc esta apagada, su temperatura es {self._temperatura}')
 
     def sistema(self, sistema_operativo):
-        if sistema_operativo == 'linux':
-            print('Tu si que eres un verdadero cientifico computacional!')
-        elif sistema_operativo == 'mac os':
-            print('Eres un ingeniero de software que invierte en sus equipos para optimizar su tiempo')
-        elif sistema_operativo == 'windows':
-            print('Meeeeh esa excusa de los juegos ya no sirve, hay muchisimos juegos ya para Linux. Estudia e invierte en ti!')
-        else:
-            print('Eres una persona rara!')
+        linux = 'Tu si que eres un verdadero cientifico computacional!'
+        mac_os = 'Eres un ingeniero de software que invierte en sus equipos para optimizar su tiempo'
+        windows = 'Meeeeh esa excusa de los juegos ya no sirve, hay muchisimos juegos ya para Linux. Estudia e invierte en ti!'
+
+        if sistema_operativo == 'linux': print(linux)
+        elif sistema_operativo == 'mac os': print(mac_os)
+        elif sistema_operativo == 'windows': print(windows)
+        else: print('Eres una persona rara!')
 
 class Procesador:
 
