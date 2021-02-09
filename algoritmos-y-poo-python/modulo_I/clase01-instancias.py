@@ -10,11 +10,19 @@ Alumno: @edinsonrequena.
 
 class Coordenada:
 
-    def __init__(self, x, y):
+    def __init__(self, x, y): # Constructor
         self.x = x
         self.y = y
 
     def distancia(self, otra_coordendada):
+        """
+        Metodo para calcular la distancia entre coordenadas.
+
+        type x: int
+        type y: int
+        rtype: int
+        """
+
         x_diff = (self.x - otra_coordendada.x)**2
         y_diff = (self.y - otra_coordendada.y)**2
 
