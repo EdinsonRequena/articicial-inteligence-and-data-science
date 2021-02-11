@@ -11,6 +11,7 @@ Alumno: @edinsonrequena.
 class Computadora:
 
     def __init__(self, marca, tipo ,modelo, color):
+
         self.marca = marca
         self.modelo = modelo
         self.color = color
@@ -20,10 +21,12 @@ class Computadora:
 
 
     def encender(self, estado=False):
+
         if estado: self._temperatura += 20; print(f'La pc esta encencida, su temperatura es {self._temperatura}!')
         else: print(f'La pc esta apagada, su temperatura es {self._temperatura}')
 
     def sistema(self, sistema_operativo):
+
         linux = 'Tu si que eres un verdadero cientifico computacional!'
         mac_os = 'Eres un ingeniero de software que invierte en sus equipos para optimizar su tiempo'
         windows = 'Meeeeh esa excusa de los juegos ya no sirve, hay muchisimos juegos ya para Linux. Estudia e invierte en ti!'
@@ -36,6 +39,7 @@ class Computadora:
 class Procesador:
 
     def __init__(self, fabricante, modelo, frecuencia, nucleos, hilos, funciona=True):
+
         self.fabricante = fabricante
         self.modelo = modelo
         self.frecuencia = frecuencia
@@ -46,6 +50,7 @@ class Procesador:
 class MemoriaRam():
 
     def __init__(self, fabricante, capacidad, funciona=True):
+
         self.fabricante = fabricante
         self.capacidad = capacidad
         self.funciona = funciona
