@@ -18,7 +18,7 @@ class CasillaVotacion:
     @property
     def region(self):
         return self._region
-    
+
     @region.setter
     def set_region(self, region):
         if region in self._pais:
