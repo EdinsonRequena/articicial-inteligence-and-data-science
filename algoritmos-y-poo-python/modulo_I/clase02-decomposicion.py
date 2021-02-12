@@ -34,11 +34,12 @@ class Computadora:
         linux = 'Tu si que eres un verdadero cientifico computacional!'
         mac_os = 'Eres un ingeniero de software que invierte en sus equipos para optimizar su tiempo'
         windows = 'Meeeeh esa excusa de los juegos ya no sirve, hay muchisimos juegos ya para Linux. Estudia e invierte en ti!'
+        ninguno = 'Eres una persona rara!'
 
         if sistema_operativo == 'linux': print(linux)
         elif sistema_operativo == 'mac os': print(mac_os)
         elif sistema_operativo == 'windows': print(windows)
-        else: print('Eres una persona rara!')
+        else: print(ninguno)
 
 class Procesador:
 
