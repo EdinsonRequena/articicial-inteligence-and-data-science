@@ -37,21 +37,16 @@ class Vehiculo:
 class Moto(Vehiculo): pass
 
 
-def crear_instancias():
+class App: # TODO #16
 
-    objeto_moto_1 = Moto('Honda', 'CBR')
-    objeto_moto_2 = Moto('Horse', 'x34')
+    def crear(self):
 
-
-def llamar_instancias(*obj): # TODO #10
-
-    objeto_moto_1.estado()
-    objeto_moto_2.estado()
-
-
-def main(): llamar_instancias()
+        objeto_moto_1 = Moto('Honda', 'CBR')
+        objeto_moto_2 = Moto('Horse', 'x34')
+        objeto_moto_1.estado()
+        objeto_moto_2.estado()
 
 
 if __name__ == '__main__':
 
-    main()
+    App().crear()
