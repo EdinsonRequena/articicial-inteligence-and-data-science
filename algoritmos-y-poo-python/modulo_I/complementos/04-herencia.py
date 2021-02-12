@@ -42,11 +42,14 @@ def crear_instancias():
     objeto_moto_1 = Moto('Honda', 'CBR')
     objeto_moto_2 = Moto('Horse', 'x34')
 
+
+def llamar_instancias(*obj): # TODO #10
+
     objeto_moto_1.estado()
     objeto_moto_2.estado()
 
 
-def main(): crear_instancias()
+def main(): llamar_instancias()
 
 
 if __name__ == '__main__':
