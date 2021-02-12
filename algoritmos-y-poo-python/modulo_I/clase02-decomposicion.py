@@ -23,7 +23,7 @@ class Computadora:
     def encender(self, estado=False):
 
         if estado: self._temperatura += 20; print(f'La pc esta encencida, su temperatura es {self._temperatura}!')
-        else: print(f'La pc esta apagada, su temperatura es {self._temperatura}')
+        else: print(f'La pc esta apagada, su temperatura es {self._temperatura}') # TODO #14
 
     def sistema(self, sistema_operativo):
 
