@@ -8,7 +8,7 @@ Alumno: @edinsonrequena.
 
 """
 
-class PesimoPresidente:
+class PesimoPresidente: # TODO #11
 
     def __init__(self, nombre, pais, habilidad):
         self.nombre = nombre
