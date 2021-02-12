@@ -31,7 +31,7 @@ class Vehiculo:
     def estado(self):
 
         print(f"""Marca: {self.marca} \n Modelo: {self.modelo} \n En marcha: 
-        {self.enmarcha} \nAcelera: {self.acelera},\n Frena: {self.frena} \n""")
+        {self.enmarcha} \nAcelera: {self.acelera},\n Frena: {self.frena} \n""") # TODO #13
 
 
 class Moto(Vehiculo): pass
