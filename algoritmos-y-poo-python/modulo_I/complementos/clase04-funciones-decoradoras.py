@@ -1,7 +1,7 @@
 """
 
-Tema: Programacion Orientada a Objetos. Funciones decoradoras.
-Curso: Curso de python, video 74.
+Tema: Funciones decoradoras.
+Curso: Curso de python, video 73.
 Plataforma: Youtube.
 Profesor: Juan diaz - Pildoras informaticas.
 Alumno: @edinsonrequena.
@@ -10,11 +10,11 @@ Alumno: @edinsonrequena.
 
 def funcion_decoradora(funcion_como_parametro):
 
-    def funcion_interior(*args):
+    def funcion_interior():
 
         print('Codigo que se ejecutara antes de llamar a la funcion a decorar')
 
-        funcion_como_parametro(*args)
+        funcion_como_parametro()
 
         print('Codigo que se ejecutara despues de llamar a la funcion a decorar')
 
@@ -22,16 +22,16 @@ def funcion_decoradora(funcion_como_parametro):
 
 
 @funcion_decoradora
-def suma(num1, num2, num3): print(num1+num2+num3)
+def suma(): print(15+20)
 
 
-def resta(num1, num2): print(num1-num2)
+def resta(): print(5-10)
 
 
 @funcion_decoradora
-def division(num1, num2): print(num1/num2)
+def division(): print(8/3)
 
 if __name__ == '__main__':
-    suma(5,10,16)
-    resta(8,6)
-    division(5,7)
+    suma()
+    resta()
+    division()

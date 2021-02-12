@@ -1,3 +1,8 @@
+"""
+Aporte de un alumno de platzi
+
+"""
+
 class Programador:
 
     def __init__(self, nombre, edad, numero_de_empleado, skill):

@@ -1,6 +1,6 @@
 """
 
-Tema: Programacion Orientada a Objetos. Funciones decoradoras.
+Tema: Funciones decoradoras.
 Curso: Curso de python, video 74.
 Plataforma: Youtube.
 Profesor: Juan diaz - Pildoras informaticas.
