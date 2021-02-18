@@ -34,6 +34,19 @@ class Vehiculo:
         {self.enmarcha} \nAcelera: {self.acelera},\n Frena: {self.frena} \n""") # TODO #13
 
 
+class Moto(Vehiculo):
+
+    hcaballito = ''
+
+    def caballito(self): self.hcaballito = 'Voy haciendo caballito'
+
+
+    def estado(self):
+
+       super().estado()
+       print(f'Caballito: {self.hcaballito}')
+
+
 class VElecetricos(Vehiculo):
 
     def __init__(self, autonomia, marcaElec, modeloElec):
@@ -84,6 +97,11 @@ class App: # TODO #16
         # Objeto Furgoneta
         furgoneta = Furgoneta('Test', 'Test2')
         furgoneta.estado()
+
+        # Objeto Moto
+        moto = Moto('Test Moto', 'Test moto')
+        moto.caballito()
+        moto.estado()
 
 if __name__ == '__main__':
 
