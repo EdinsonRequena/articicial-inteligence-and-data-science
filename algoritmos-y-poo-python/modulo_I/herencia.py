@@ -8,37 +8,33 @@ Alumno: @edinsonrequena.
 
 """
 
-class PesimoPresidente: # TODO #11
+class Rectangulo:
 
-    def __init__(self, nombre, pais, habilidad):
-        self.nombre = nombre
-        self.pais = pais
-        self.habilidad = habilidad # Tambien se puede programar con sarcasmo
+    def __init__(self, base, altura):
 
-
-    def saludo(self):
-        print(f'Hola mi nombre es {self.nombre}, para la poca fortuna de los habitantes de {self.pais} naci alli y mi habilidad es {self.habilidad}')
+        self.base = base
+        self.altura = altura
 
 
-class Chavez(PesimoPresidente):
-
-    def __init__(self, nombre, pais, habilidad):
-        super().__init__(nombre, pais, habilidad)
+    def area(self): return self.base * self.altura
 
 
-class Trump(PesimoPresidente):
+class Cuadrado(Rectangulo):
 
-    def __init__(self, nombre, pais, habilidad):
-        super().__init__(nombre, pais, habilidad)
+    def __init__(self, lado):
+        super().__init__(lado, lado)
 
-def main():
-    chavez = Chavez('Hugo chavez', 'Venezuela', 'destruir economias')
-    print(chavez.saludo())
 
-    print('\n')
+class App:
 
-    trump = Trump('Donald Trump', 'Estados Unidos', 'hacer america una basura otra vez!')
-    print(trump.saludo())
+    def main(self):
+
+        rectangulo = Rectangulo(4, 16)
+        print(rectangulo.area())
+
+        cuadrado = Cuadrado(17)
+        print(cuadrado.area())
 
 if __name__ == '__main__':
-    main()
+
+    App().main()
