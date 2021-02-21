@@ -43,8 +43,8 @@ class Moto(Vehiculo):
 
     def estado(self):
 
-       super().estado()
-       print(f'Caballito: {self.hcaballito}')
+        super().estado()
+        print(f'Caballito: {self.hcaballito}')
 
 
 class VElecetricos(Vehiculo):
