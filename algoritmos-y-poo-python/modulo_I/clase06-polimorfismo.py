@@ -11,40 +11,51 @@ Alumno: @edinsonrequena.
 class Cientifica:
 
     def __init__(self, nombre):
+
         self.nombre = nombre
-    
+
 
     def habilidad(self):
+
         print('Soy muy inteligente')
-    
+
 
 class Fisico(Cientifica):
 
     def __init__(self, nombre):
+
         super().__init__(nombre)
-    
+
 
     def habilidad(self):
-        return super().habilidad()
+
+        super().habilidad()
+
 
 class Matematico(Cientifica):
 
     def __init__(self, nombre):
+
         super().__init__(nombre)
-    
+
     def habilidad(self):
+
+        super().habilidad()
         print('Todas las ciencias derivan de las matematicas, JA!')
 
+class App:
 
-def main():
-    cientifico = Cientifica('Andrea')
-    cientifico.habilidad()
+    def main(self):
 
-    fisico = Fisico('Edinson')
-    fisico.habilidad()
+        cientifico = Cientifica('Andrea')
+        cientifico.habilidad()
 
-    matematico = Matematico('Oriana')
-    matematico.habilidad()
+        fisico = Fisico('Edinson')
+        fisico.habilidad()
+
+        matematico = Matematico('Oriana')
+        matematico.habilidad()
 
 if __name__ == '__main__':
-    main()
+
+    App().main()
