@@ -9,18 +9,22 @@ Alumno: @edinsonrequena.
 """
 
 def fibonacci(n):
-    ''' 
+    '''
     Recursividad multiple
     O(2^n)
     '''
-    
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
-    
+
+    if n == 0 or n == 1: return 1
+
     return fibonacci(n-1) + fibonacci(n-2)
 
-if __name__ == '__main__':
-    n = 100
+
+def main():
+
+    n = 5
     print(fibonacci(n))
+
+
+if __name__ == '__main__':
+
+    main()
