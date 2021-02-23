@@ -11,21 +11,21 @@ Alumno: @edinsonrequena.
 class CasillaVotacion:
 
     def __init__(self, indentificador, pais):
-        self._indentificador = indentificador
-        self._pais = pais
-        self._region = None
+        self.__indentificador = indentificador
+        self.__pais = pais
+        self.__region = None
 
     @property
     def region(self):
-        return self._region
+        return self.__region
 
     @region.setter
     def set_region(self, region):
-        if region in self._pais:
-            self._region = region
+        if region in self.__pais:
+            self.__region = region
         else:
-            raise ValueError(f'la region {region} no es validad en {self._pais}')
+            raise ValueError(f'la region {region} no es validad en {self.__pais}')
 
 casilla = CasillaVotacion(394, ['Caracas', 'Valencia', 'Zulia'])
 print(casilla.region)
-print(casilla._pais)
+print(casilla.__pais)
