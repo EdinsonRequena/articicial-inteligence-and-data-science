@@ -9,15 +9,24 @@ Alumno: @edinsonrequena.
 """
 
 def f(n):
-    ''' 
+    '''
     Ley de suma #2
     O(n) + O(n * n) = O(n + n^2) = O(n^2)
     '''
+
     for i in range(n):
         print(i)
-    
+
     for i in range(n*n):
         print(i)
 
-n = 5
-f(n)
+
+def main():
+
+    n = 20
+    f(n)
+
+
+if __name__ == '__main__':
+
+    main()

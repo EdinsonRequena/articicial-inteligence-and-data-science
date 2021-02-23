@@ -11,11 +11,22 @@ Alumno: @edinsonrequena.
 def f(n):
     '''
     Ley de suma.
-    O(n) + O(n) = O(n+n) = O(2n) = O(n)    
+    O(n) + O(n) = O(n+n) = O(2n) = O(n)
     '''
 
     for i in range(n):
         print(i)
-    
+
     for i in range(n):
         print(i)
+
+
+def main():
+
+    n = 20
+    f(n)
+
+
+if __name__ == '__main__':
+
+    main()
