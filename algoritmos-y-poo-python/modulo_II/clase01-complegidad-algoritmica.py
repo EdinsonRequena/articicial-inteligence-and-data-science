@@ -11,6 +11,7 @@ Alumno: @edinsonrequena.
 import time
 
 def factorial(n):
+
     respuesta = 1
 
     while n > 1:
@@ -21,13 +22,15 @@ def factorial(n):
 
 
 def factorial_r(n):
+
     if n == 1:
         return 1
 
     return n * factorial(n - 1)
 
 
-if __name__ == '__main__':
+def main():
+
     n = 200000
 
     comienzo = time.time()
@@ -39,3 +42,8 @@ if __name__ == '__main__':
     factorial_r(n)
     final = time.time()
     print(final - comienzo)
+
+
+if __name__ == '__main__':
+
+    main()
