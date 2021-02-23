@@ -10,7 +10,7 @@ Alumno: @edinsonrequena.
 
 import random
 
-def busqueda_lineal(lista, objetivo):
+def busqueda_lineal(lista, objetivo): #TODO #35
     '''
     O(n)
 
