@@ -8,13 +8,15 @@ Alumno: @edinsonrequena.
 
 import random
 
-def busqueda_binaria(lista, comienzo, final, objetivo):
+def busqueda_binaria(lista, comienzo, final, objetivo): # TODO #38
 
     print(f'buscando {objetivo} entre {lista[comienzo]} y {lista[final - 1]}')
 
     if comienzo > final: return False
 
     mitad = (comienzo + final) // 2
+    print(f'El numero de la mitad es: {mitad}')
+    print(f'El indice de la mitad es: {lista[mitad]}')
 
     if lista[mitad] == objetivo: return True
     elif lista[mitad] < objetivo: return busqueda_binaria(lista, mitad + 1, final, objetivo)
