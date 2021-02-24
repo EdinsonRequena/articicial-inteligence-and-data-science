@@ -8,7 +8,7 @@ Alumno: @edinsonrequena.
 
 import random
 
-def busqueda_binaria(lista, comienzo, final, objetivo):
+def busqueda_binaria(lista, comienzo, final, objetivo): # TODO #38
 
     print(f'buscando {objetivo} entre {lista[comienzo]} y {lista[final - 1]}')
 
