@@ -7,7 +7,7 @@ Alumno: @edinsonrequena.
 """
 import random
 
-def busqueda_binaria(lista, comienzo, final, objetivo):
+def busqueda_binaria_recursiva(lista, comienzo, final, objetivo):
 
     print(f'buscando {objetivo} entre {lista[comienzo]} y {lista[final - 1]}')
 
@@ -19,9 +19,9 @@ def busqueda_binaria(lista, comienzo, final, objetivo):
     if lista[mitad] == objetivo:
         return True
     elif lista[mitad] < objetivo:
-        return busqueda_binaria(lista, mitad + 1, final, objetivo)
+        return busqueda_binaria_recursiva(lista, mitad + 1, final, objetivo)
     elif lista[mitad] > objetivo:
-        return busqueda_binaria(lista, comienzo, mitad - 1, objetivo)
+        return busqueda_binaria_recursiva(lista, comienzo, mitad - 1, objetivo)
 
 
 def main():
@@ -31,7 +31,7 @@ def main():
 
     lista = sorted([random.randint(0, 100) for i in range(tamano_lista)])
 
-    encontrado = busqueda_binaria(lista, 0, len(lista), objetivo)
+    encontrado = busqueda_binaria_recursiva(lista, 0, len(lista), objetivo)
     print(lista)
 
     print(f'el elemento {objetivo} {"esta" if encontrado else "no esta"} en la lista')
