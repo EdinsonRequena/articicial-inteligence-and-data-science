@@ -247,3 +247,12 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: SyntaxError: import declarations may only appear at top level of a module
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
 1614634225814	Marionette	INFO	Stopped listening on port 34887
+1614634505306	geckodriver	INFO	Listening on 127.0.0.1:39339
+1614634506310	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileASZ4rx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614634509194	Marionette	INFO	Listening on port 37307
+1614634509247	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614634509265	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+1614634536138	Marionette	INFO	Stopped listening on port 37307
