@@ -11,9 +11,9 @@
         <div class="row">
             <div class="col-xs-12">
                 <h2 class="text-capitalize">Test Result</h2>
-                <p class='attribute'><strong>Start Time: </strong>2021-03-01 13:25:50</p>
-                <p class='attribute'><strong>Duration: </strong>62.003s</p>
-                <p class='attribute'><strong>Status: </strong>Pass: 2</p>
+                <p class='attribute'><strong>Start Time: </strong>2021-03-02 16:39:13</p>
+                <p class='attribute'><strong>Duration: </strong>80.941s</p>
+                <p class='attribute'><strong>Status: </strong>Pass: 1, Fail: 1</p>
             </div>
         </div>
         <div class="row">
@@ -21,14 +21,14 @@
                 <table class='table table-hover table-responsive'>
                     <thead>
                         <tr>
-                            <th>reportes</th>
+                            <th>smoke-report</th>
                             <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         
                             <tr class='success'>
-                                <td class="col-xs-9">test_repuestos (__main__.HelloWorld)</td>
+                                <td class="col-xs-9">test_search_tee (searchtests.SearchTests)</td>
                                 <td class="col-xs-3">
                                     <span class="label label-success">
                                         
@@ -40,17 +40,26 @@
                             </tr>
                             
                         
-                            <tr class='success'>
-                                <td class="col-xs-9">test_wikipedia (__main__.HelloWorld)</td>
+                            <tr class='danger'>
+                                <td class="col-xs-9">test_search_card (searchtests.SearchTests)</td>
                                 <td class="col-xs-3">
-                                    <span class="label label-success">
+                                    <span class="label label-danger">
                                         
-                                            Pass
+                                            Fail
                                         
                                     </span>
                                     
+                                        &nbsp<button class="btn btn-default btn-xs">View</button>
+                                    
                                 </td>
                             </tr>
+                            
+                                <tr style="display:none;">
+                                    <td class="col-xs-9">
+                                        <p>AssertionError</p>
+                                        <p>2 != 0</p>
+                                    </td>
+                                </tr>
                             
                         
                         <tr>
@@ -58,7 +67,7 @@
                                Total Test Runned: 2
                             </td>
                             <td>
-                                <span>Pass: 2</span>
+                                <span>Pass: 1, Fail: 1</span>
                             </td>
                         </tr>
                     </tbody>
