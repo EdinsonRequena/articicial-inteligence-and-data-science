@@ -1,3 +1,13 @@
+"""
+
+Tema: Hola Mundo!.
+Curso: Selenium con python.
+Plataforma: Platzi.
+Profesor: Hector Vega.
+Alumno: @edinsonrequena.
+
+"""
+
 import unittest
 from pyunitreport import HTMLTestRunner
 from selenium import webdriver
