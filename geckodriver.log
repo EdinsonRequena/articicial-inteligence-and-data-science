@@ -256,3 +256,21 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: SyntaxError: import declarations may only appear at top level of a module
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
 1614634536138	Marionette	INFO	Stopped listening on port 37307
+1614634635210	geckodriver	INFO	Listening on 127.0.0.1:60459
+1614634635224	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevswSWw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614634639311	Marionette	INFO	Listening on port 40605
+1614634639359	Marionette	WARN	TLS certificate errors will be ignored for this session
+1614634639377	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+1614634659780	Marionette	INFO	Stopped listening on port 40605
+1614698417509	geckodriver	INFO	Listening on 127.0.0.1:56515
+1614698418495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWDh4Sl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614698421268	Marionette	INFO	Listening on port 45777
+1614698421334	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+1614698457192	Marionette	INFO	Stopped listening on port 45777

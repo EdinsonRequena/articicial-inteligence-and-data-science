@@ -16,7 +16,8 @@ class HomePageTests(unittest.TestCase):
 
     def test_empresa_button(self):
 
-        main_button = self.driver.find_elements_by_class_name("btn")
+        #main_button = self.driver.find_elements_by_class_name("btn")
+        main_button = self.driver.find_element_by_xpath("//*[@id='navbarSupportedContent']/ul/li[1]/a")
 
 
     def test_descargar_ya_button(self):
@@ -27,6 +28,7 @@ class HomePageTests(unittest.TestCase):
     def test_mas_info_button(self):
 
         mas_info_button = self.driver.find_element_by_id('footerModalOpen')
+
 
     @classmethod
     def tearDownClass(cls):
