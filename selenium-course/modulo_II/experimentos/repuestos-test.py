@@ -40,9 +40,9 @@ class HomePageTests(unittest.TestCase):
 
     def test_c_send_credentials(self):
 
-        user_name = self.driver.find_element_by_id('emailLoginForm').send_keys('empresa@conceptualdynamic.com')
+        user_name = self.driver.find_element_by_id('emailLoginForm').send_keys('test')
 
-        password = self.driver.find_element_by_id('passwordLoginForm').send_keys('123456')
+        password = self.driver.find_element_by_id('passwordLoginForm').send_keys('test')
 
         login_modal_button = self.driver.find_element_by_xpath('//*[@id="loginModal"]/div/div/div/div/div[2]/form/div[4]/button')
         login_modal_button.submit()
@@ -55,7 +55,16 @@ class HomePageTests(unittest.TestCase):
 
     def test_e_email_field(self):
 
-        pass
+        email_field = self.driver.find_element_by_id('email')
+        email_field.clear()
+        email_field.send_keys('empresa')
+
+    def test_f_save_button(self):
+
+        save_button = self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div/div/form/div[2]/div/button')
+        save_button.click()
+
+        time.sleep(10)
 
 
     @classmethod
