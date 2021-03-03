@@ -28,18 +28,15 @@ class HomePageTests(unittest.TestCase):
         driver.maximize_window()
         #driver.implicitly_wait(15)
 
-
     def test_a_bussines_button(self):
 
         bussines_button = self.driver.find_element_by_xpath("//*[@id='navbarSupportedContent']/ul/li[1]/a")
         bussines_button.click()
 
-
     def test_b_login_button(self):
 
         login_button = self.driver.find_element_by_xpath('//*[@id="navbarSupportedContent"]/ul/li[1]/a')
         login_button.click()
-
 
     def test_c_send_credentials(self):
 
@@ -52,10 +49,13 @@ class HomePageTests(unittest.TestCase):
 
         time.sleep(20)
 
-
     def test_d_datos(self):
 
         datos_button = self.driver.find_element_by_xpath('/html/body/div/div/nav/ul/li[1]/a').click()
+
+    def test_e_email_field(self):
+
+        pass
 
 
     @classmethod
