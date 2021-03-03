@@ -5,6 +5,9 @@ Verision: 0.2
 
 """
 
+# Python Modules
+import time
+
 # Unitest Modules
 import unittest
 
@@ -23,14 +26,36 @@ class HomePageTests(unittest.TestCase):
         driver = cls.driver
         driver.get('https://testrepuesto.westus.cloudapp.azure.com/')
         driver.maximize_window()
-        driver.implicitly_wait(15)
+        #driver.implicitly_wait(15)
 
 
-    def test_empresa_button(self):
+    def test_a_bussines_button(self):
 
-        #main_button = self.driver.find_elements_by_class_name("btn")
-        main_button = self.driver.find_element_by_xpath("//*[@id='navbarSupportedContent']/ul/li[1]/a")
-        main_button.click()
+        bussines_button = self.driver.find_element_by_xpath("//*[@id='navbarSupportedContent']/ul/li[1]/a")
+        bussines_button.click()
+
+
+    def test_b_login_button(self):
+
+        login_button = self.driver.find_element_by_xpath('//*[@id="navbarSupportedContent"]/ul/li[1]/a')
+        login_button.click()
+
+
+    def test_c_send_credentials(self):
+
+        user_name = self.driver.find_element_by_id('emailLoginForm').send_keys('empresa@conceptualdynamic.com')
+
+        password = self.driver.find_element_by_id('passwordLoginForm').send_keys('123456')
+
+        login_modal_button = self.driver.find_element_by_xpath('//*[@id="loginModal"]/div/div/div/div/div[2]/form/div[4]/button')
+        login_modal_button.submit()
+
+        time.sleep(20)
+
+
+    def test_d_datos(self):
+
+        datos_button = self.driver.find_element_by_xpath('/html/body/div/div/nav/ul/li[1]/a').click()
 
 
     @classmethod
