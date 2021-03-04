@@ -956,3 +956,28 @@ JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: Syn
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
 1614805444476	Marionette	INFO	Stopped listening on port 35771
+1614873506093	geckodriver	INFO	Listening on 127.0.0.1:54275
+1614873507081	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7UrLpY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614873511347	Marionette	INFO	Listening on port 39425
+1614873511429	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+1614873573718	Marionette	INFO	Stopped listening on port 39425
+1614874449440	geckodriver	INFO	Listening on 127.0.0.1:49281
+1614874450455	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyPaGbq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614874453317	Marionette	INFO	Listening on port 45555
+1614874453392	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/plugins/jquery-sparkline/jquery.sparkline.min.js, line 1: ReferenceError: jQuery is not defined
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/off-canvas.js, line 8: ReferenceError: jQuery is not defined
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/hoverable-collapse.js, line 38: ReferenceError: jQuery is not defined
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/misc.js, line 10: ReferenceError: $ is not defined
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/settings.js, line 87: ReferenceError: jQuery is not defined
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/todolist.js, line 34: ReferenceError: jQuery is not defined
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/dashboard.js, line 698: ReferenceError: jQuery is not defined
+1614874523054	Marionette	INFO	Stopped listening on port 45555
