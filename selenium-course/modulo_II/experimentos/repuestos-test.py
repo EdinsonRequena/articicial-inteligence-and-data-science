@@ -39,9 +39,11 @@ class HomePageTests(unittest.TestCase):
 
     def test_c_send_credentials(self):
 
-        user_name = self.driver.find_element_by_id('emailLoginForm').send_keys('#')
+        user_name = self.driver.find_element_by_id('emailLoginForm')
+        user_name.send_keys('#')
 
-        password = self.driver.find_element_by_id('passwordLoginForm').send_keys('#')
+        password = self.driver.find_element_by_id('passwordLoginForm')
+        password.send_keys('#')
 
         login_modal_button = self.driver.find_element_by_xpath('//*[@id="loginModal"]/div/div/div/div/div[2]/form/div[4]/button')
         login_modal_button.submit()
@@ -94,7 +96,6 @@ class HomePageTests(unittest.TestCase):
         save_button.click()
 
         time.sleep(10)
-
 
     @classmethod
     def tearDownClass(cls):
