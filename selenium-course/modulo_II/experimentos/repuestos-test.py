@@ -39,9 +39,9 @@ class HomePageTests(unittest.TestCase):
 
     def test_c_send_credentials(self):
 
-        user_name = self.driver.find_element_by_id('emailLoginForm').send_keys('empresa@conceptualdynamic.com')
+        user_name = self.driver.find_element_by_id('emailLoginForm').send_keys('#')
 
-        password = self.driver.find_element_by_id('passwordLoginForm').send_keys('123456')
+        password = self.driver.find_element_by_id('passwordLoginForm').send_keys('#')
 
         login_modal_button = self.driver.find_element_by_xpath('//*[@id="loginModal"]/div/div/div/div/div[2]/form/div[4]/button')
         login_modal_button.submit()
