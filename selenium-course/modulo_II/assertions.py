@@ -21,12 +21,10 @@ class AssertionsTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
 
-        cls.driver = webdriver.Firefox(executable_path = '/home/edinson/Descargas/geckodriver')
+        cls.driver = webdriver.Firefox(executable_path='/home/edinson/Descargas/geckodriver')
         driver = cls.driver
         driver.maximize_window()
         driver.get('http://demo-store.seleniumacademy.com/')
-        #driver.implicitly_wait(15)
-
 
     def test_search_field(self):
 
