@@ -945,6 +945,8 @@ JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/setti
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/todolist.js, line 34: ReferenceError: jQuery is not defined
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/dashboard.js, line 698: ReferenceError: jQuery is not defined
 1614797679350	Marionette	INFO	Stopped listening on port 44731
+<<<<<<< HEAD
+=======
 1614805362274	geckodriver	INFO	Listening on 127.0.0.1:42687
 1614805363258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevx0xmd"
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
@@ -956,3 +958,27 @@ JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: Syn
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
 1614805444476	Marionette	INFO	Stopped listening on port 35771
+>>>>>>> 0338d94634a2434b689e1488ac50e30580dbde33
+1615093146075	geckodriver	INFO	Listening on 127.0.0.1:58189
+1615093146146	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1JAkl4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1615093177363	Marionette	INFO	Listening on port 34445
+1615093177726	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1615093478308	geckodriver	INFO	Listening on 127.0.0.1:40073
+1615093478328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCyc2b1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+1615093502210	Marionette	INFO	Listening on port 42573
+1615093502496	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: http://demo-store.seleniumacademy.com/js/lib/jquery/jquery-1.10.2.min.js, line 4: NS_ERROR_NOT_INITIALIZED: 
+1615093548463	Marionette	INFO	Stopped listening on port 42573
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615093551299	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1615093552454	Marionette	INFO	Stopped listening on port 34445

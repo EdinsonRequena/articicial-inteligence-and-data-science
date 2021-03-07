@@ -18,13 +18,14 @@ from selenium.webdriver.common.by import By
 
 class AssertionsTest(unittest.TestCase):
 
-    def setUp(self):
+    @classmethod
+    def setUpClass(cls):
 
-        self.driver = webdriver.Firefox(executable_path= '/home/edinson/Descargas/geckodriver')
-        driver = self.driver
-        driver.implicitly_wait(30)
+        cls.driver = webdriver.Firefox(executable_path = '/home/edinson/Descargas/geckodriver')
+        driver = cls.driver
         driver.maximize_window()
         driver.get('http://demo-store.seleniumacademy.com/')
+        #driver.implicitly_wait(15)
 
 
     def test_search_field(self):
@@ -37,9 +38,10 @@ class AssertionsTest(unittest.TestCase):
         self.assertTrue(self.is_element_present(By.ID, 'select-language'))
 
 
-    def tearDown(self):
+    @classmethod
+    def tearDownClass(cls):
 
-        self.driver.quit()
+        cls.driver.quit()
 
 
     def is_element_present(self, how, what):

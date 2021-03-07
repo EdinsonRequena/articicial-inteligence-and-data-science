@@ -44,8 +44,8 @@ class SearchTests(unittest.TestCase):
         search_field.send_keys('card')
         search_field.submit()
 
-        #products = driver.find_elements_by_xpath('/html/body/div/div[2]/div[2]/div/div[2]/div[2]/div[3]/ul/li[1]/div/h2/a')
-        #self.assertEqual(2, len(products))
+        products = driver.find_elements_by_xpath('/html/body/div/div[2]/div[2]/div/div[2]/div[2]/div[3]/ul/li[1]/div/h2/a')
+        self.assertEqual(2, len(products))
 
 
     @classmethod
