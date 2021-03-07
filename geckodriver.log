@@ -945,3 +945,17 @@ JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/setti
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/todolist.js, line 34: ReferenceError: jQuery is not defined
 JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/js/dashboard.js, line 698: ReferenceError: jQuery is not defined
 1614797679350	Marionette	INFO	Stopped listening on port 44731
+<<<<<<< HEAD
+=======
+1614805362274	geckodriver	INFO	Listening on 127.0.0.1:42687
+1614805363258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevx0xmd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1614805367295	Marionette	INFO	Listening on port 35771
+1614805367396	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/, line 404: SyntaxError: import declarations may only appear at top level of a module
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+JavaScript error: https://testrepuesto.westus.cloudapp.azure.com/assets/themes/repuestos/js/app.js, line 67955: TypeError: document.querySelector(...) is null
+1614805444476	Marionette	INFO	Stopped listening on port 35771
+>>>>>>> 0338d94634a2434b689e1488ac50e30580dbde33

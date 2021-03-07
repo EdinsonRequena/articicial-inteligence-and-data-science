@@ -1,6 +1,11 @@
 """
 
+<<<<<<< HEAD
 Test automatizados para seccion mis datos.
+=======
+Test automatizados para repuestos.
+Verision: 0.2
+>>>>>>> 0338d94634a2434b689e1488ac50e30580dbde33
 
 """
 
@@ -52,6 +57,7 @@ class HomePageTests(unittest.TestCase):
 
         datos_button = self.driver.find_element_by_xpath('/html/body/div/div/nav/ul/li[1]/a').click()
 
+<<<<<<< HEAD
     def test_e_first_name_field(self):
 
         name_field = self.driver.find_element_by_id('name')
@@ -66,11 +72,15 @@ class HomePageTests(unittest.TestCase):
 
 
     def test_h_email_field(self):
+=======
+    def test_e_email_field(self):
+>>>>>>> 0338d94634a2434b689e1488ac50e30580dbde33
 
         email_field = self.driver.find_element_by_id('email')
         email_field.clear()
         email_field.send_keys('empresa')
 
+<<<<<<< HEAD
     def test_i_phone_field(self):
 
         phone_field = self.driver.find_element_by_id('phone_number')
@@ -84,6 +94,9 @@ class HomePageTests(unittest.TestCase):
         descrtiption_field.send_keys('test')
 
     def test_z_save_button(self):
+=======
+    def test_f_save_button(self):
+>>>>>>> 0338d94634a2434b689e1488ac50e30580dbde33
 
         save_button = self.driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div[2]/div/div/form/div[2]/div/button')
         save_button.click()
