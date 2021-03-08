@@ -48,16 +48,14 @@ def ordenamiento_por_insercion(lista):
     return lista
 
 
-
 def main():
 
     tamano_lista = int(input('Tamano de la lista: '))
-    lista = [random.randint(0,100) for i in range(tamano_lista)]
+    lista = [random.randint(0, 100) for i in range(tamano_lista)]
 
     lista_ordenada = ordenamiento_por_insercion(lista)
     print(lista_ordenada)
 
 
 if  __name__ == '__main__':
-
     main()
