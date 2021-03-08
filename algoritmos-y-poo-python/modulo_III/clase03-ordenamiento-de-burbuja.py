@@ -8,6 +8,7 @@ Alumno: @edinsonrequena.
 
 import random
 
+
 def ordenamiento_burbuja(lista): # TODO #66 #63
     '''
     O(n) * O(n - i - 1) = O(n) * O(n) = O(n * n) = O(n^2)
@@ -16,6 +17,7 @@ def ordenamiento_burbuja(lista): # TODO #66 #63
     int n = len(n)
     return n
     '''
+
     n = len(lista)
 
     for i in range(n):
