@@ -56,6 +56,6 @@ def main():
     lista_ordenada = ordenamiento_por_insercion(lista)
     print(lista_ordenada)
 
-
 if  __name__ == '__main__':
+
     main()
