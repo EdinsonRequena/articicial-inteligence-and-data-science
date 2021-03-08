@@ -11,7 +11,7 @@ import random
 def busqueda_binaria_iterativa(lista, comienzo, final, objetivo):
 
     while final > comienzo:
-        mitad = (comienzo + final) // 2
+        mitad = (comienzo + final) // 2 # comiezo = 0: final = len(lista), so: mitad = (0 + len(lista)) // 2
 
         print(f'El numero de la mitad es: {mitad}')
         print(f'El indice de la mitad es: {lista[mitad]}')

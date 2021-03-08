@@ -14,9 +14,9 @@ def busqueda_binaria_recursiva(lista, comienzo, final, objetivo): # TODO #38
 
     if comienzo > final: return False
 
-    mitad = (comienzo + final) // 2
-    print(f'El numero de la mitad es: {mitad}')
-    print(f'El indice de la mitad es: {lista[mitad]}')
+    mitad = (comienzo + final) // 2 # comiezo = 0: final = len(lista), so: mitad = (0 + len(lista)) // 2
+    print(f'El indice de la mitad es: {mitad}')
+    print(f'El numero de la mitad es: {lista[mitad]}')
 
     # if lista[mitad] == objetivo: return True # Esta linea no se 100% necesaria
     if lista[mitad] < objetivo: return busqueda_binaria_recursiva(lista, mitad + 1, final, objetivo)
