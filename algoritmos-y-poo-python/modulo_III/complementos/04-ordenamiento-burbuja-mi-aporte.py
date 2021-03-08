@@ -1,9 +1,8 @@
 """
-Tema: Algoritmos de busqueda y ordenamiento - Ordenamiento de Burbuja.
-Curso: Pensamiento Computacional, 2da entrega.
-Plataforma: Platzi.
-Profesor: David Aroesti.
+
+Tema: Algoritmo de ordenamiento burbubuja
 Alumno: @edinsonrequena.
+
 """
 
 import random

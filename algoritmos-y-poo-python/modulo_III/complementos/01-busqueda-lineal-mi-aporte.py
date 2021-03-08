@@ -1,9 +1,6 @@
 """
 
-Tema: Algoritmos de busqueda y ordenamiento - Busqueda Lineal.
-Curso: Pensamiento Computacional, 2da entrega.
-Plataforma: Platzi.
-Profesor: David Aroesti.
+Tema: Algoritmo de busqueda lineal
 Alumno: @edinsonrequena.
 
 """
