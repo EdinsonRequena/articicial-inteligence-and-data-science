@@ -1,16 +1,15 @@
 """
-Tema: Algoritmos de busqueda y ordenamiento - Ordenamiento de Burbuja.
-Curso: Pensamiento Computacional, 2da entrega.
-Plataforma: Platzi.
-Profesor: David Aroesti.
+
+Tema: Algoritmo de ordenamiento burbubuja
 Alumno: @edinsonrequena.
+
 """
 
 import random
 
 def ordenamiento_burbuja(lista):
     '''
-    O(n) * O(n - i - 1) = O(n) * O(n) = O(n * n) = O(n^2)
+    O(n) * O(n - i - 1) = O(n) * O(n) = O(n * n) = O(n^²)
 
     int n = []
     int n = len(n)

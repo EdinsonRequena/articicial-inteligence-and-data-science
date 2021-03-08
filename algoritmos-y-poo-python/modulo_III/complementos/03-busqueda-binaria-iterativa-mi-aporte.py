@@ -1,9 +1,8 @@
 """
-Tema: Algoritmos de busqueda y ordenamiento - Busqueda Binaria.
-Curso: Pensamiento Computacional, 2da entrega.
-Plataforma: Platzi.
-Profesor: David Aroesti.
+
+Tema: Algoritmo de busqueda binaria iterativa
 Alumno: @edinsonrequena.
+
 """
 
 import random
