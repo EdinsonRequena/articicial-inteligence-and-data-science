@@ -1,9 +1,11 @@
 """
+
 Tema: Algoritmos de busqueda y ordenamiento - Ordenamiento por Mezcla.
 Curso: Pensamiento Computacional, 2da entrega.
 Plataforma: Platzi.
 Profesor: David Aroesti.
 Alumno: @edinsonrequena.
+
 """
 
 import random
@@ -34,7 +36,7 @@ def ordenamiento_por_mezcla(lista):
             elif derecha[j] < izquierda[i]:
                 lista[k] = derecha[j]
                 j += 1
-            
+
             k += 1
 
         while i < len(izquierda):
@@ -53,7 +55,7 @@ def ordenamiento_por_mezcla(lista):
     return lista
 
 def main():
-    ''' 
+    '''
     Funcion principal
     '''
 
@@ -67,4 +69,5 @@ def main():
     print(lista_ordenada)
 
 if __name__ == '__main__':
+
     main()
