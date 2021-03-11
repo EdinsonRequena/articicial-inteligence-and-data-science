@@ -45,7 +45,7 @@ def ordenamiento_por_mezcla(lista):
     7) Incrimentamos k para no caer en un bucle infinito y trabajar en el indice siguiente de lista[k] que seria,
         lista[1] en la siguiente iteracion
 
-    8)
+    8) En los dos ultimos bucles copiamos las sub-listas ordenadas en la lista principal.
     """
 
     # Caso base
@@ -72,7 +72,7 @@ def ordenamiento_por_mezcla(lista):
             if izquierda[i] < derecha[j]:
                 lista[k] = izquierda[i]
                 i += 1
-            elif derecha[j] < izquierda[i]:
+            else:
                 lista[k] = derecha[j]
                 j += 1
 
