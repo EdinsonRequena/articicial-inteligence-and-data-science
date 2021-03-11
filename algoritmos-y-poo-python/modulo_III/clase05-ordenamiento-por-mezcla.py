@@ -42,7 +42,7 @@ def ordenamiento_por_mezcla(lista):
         while i < len(izquierda):
             lista[k] = izquierda[i]
             i += 1
-            k +=1
+            k += 1
 
         while j < len(derecha):
             lista[k] = derecha[j]
