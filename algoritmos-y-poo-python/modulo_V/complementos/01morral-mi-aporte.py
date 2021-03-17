@@ -17,8 +17,8 @@ def morral(tamano_morral, pesos, valores, n):
         return morral(tamano_morral, pesos, valores, n - 1)
 
     return max(
-    valores[n - 1] + morral(tamano_morral - pesos[n - 1], pesos, valores, n - 1),
-    morral(tamano_morral, pesos, valores, n - 1)
+        valores[n - 1] + morral(tamano_morral - pesos[n - 1], pesos, valores, n - 1),
+        morral(tamano_morral, pesos, valores, n - 1)
     )
 
 
@@ -38,6 +38,7 @@ def main():
 
     resultado = morral(tamano_morral, pesos, valores, n)
     print(resultado)
+
 
 if __name__ == '__main__':
     main()
