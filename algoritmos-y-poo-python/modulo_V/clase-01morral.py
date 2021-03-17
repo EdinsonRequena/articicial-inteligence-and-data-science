@@ -22,9 +22,9 @@ def morral(tamano_morral, pesos, valores, n):
 
 def main():
 
-    valores = [60, 100, 120]
-    pesos = [10, 20, 30]
-    tamano_morral = 50
+    valores = [46, 71, 74, 14]
+    pesos = [99, 88, 90, 1]
+    tamano_morral = 55
     n = len(valores)
 
     resultado = morral(tamano_morral, pesos, valores, n)
