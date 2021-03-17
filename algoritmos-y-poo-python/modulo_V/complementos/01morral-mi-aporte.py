@@ -5,6 +5,7 @@ Alumno: @edinsonrequena.
 
 import random
 
+
 def morral(tamano_morral, pesos, valores, n):
 
     # Caso base 1
@@ -15,8 +16,10 @@ def morral(tamano_morral, pesos, valores, n):
     if pesos[n - 1] > tamano_morral:
         return morral(tamano_morral, pesos, valores, n - 1)
 
-    return max(valores[n - 1] + morral(tamano_morral - pesos[n - 1], pesos, valores, n - 1),
-                morral(tamano_morral, pesos, valores, n - 1))
+    return max(
+    valores[n - 1] + morral(tamano_morral - pesos[n - 1], pesos, valores, n - 1),
+    morral(tamano_morral, pesos, valores, n - 1)
+    )
 
 
 def main():
