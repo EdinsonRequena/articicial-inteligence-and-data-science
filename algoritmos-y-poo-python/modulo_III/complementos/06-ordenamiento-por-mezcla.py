@@ -62,7 +62,7 @@ def ordenamiento_por_mezcla(lista):
         ordenamiento_por_mezcla(izquierda) # Llamada de [:mitad]
         ordenamiento_por_mezcla(derecha) # Llamada de [mitad:]
 
-        # Iteradores para recorrer las dos sublistas
+        # Iteradores para recorrer las sublistas
         i, j = 0, 0
 
         # Iterador para la lista principal

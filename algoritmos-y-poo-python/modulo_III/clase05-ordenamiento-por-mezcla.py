@@ -23,7 +23,7 @@ def ordenamiento_por_mezcla(lista):
         ordenamiento_por_mezcla(izquierda)
         ordenamiento_por_mezcla(derecha)
 
-        # Iteradores para recorrer las dos sublistas
+        # Iteradores para recorrer las sublistas
         i = 0
         j = 0
         # Iterador para la lista principal
