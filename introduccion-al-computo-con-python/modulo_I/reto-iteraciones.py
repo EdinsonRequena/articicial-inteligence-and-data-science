@@ -14,14 +14,13 @@ Escriba un programa que simule un relog usando bucles while
 
 6) Dentro del bucle que recorre la variable seg sumarle uno a la variable seg en cada iteracion.
 
-7) Dentro del bucle que recorre la variable min (pero fuera del bucle que recorre la variable seg) 
+7) Dentro del bucle que recorre la variable min (pero fuera del bucle que recorre la variable seg)
 sumarle uno a min en cada interacion y resetrar a cero la variable seg.
 
-8) Dentro del bucle que recorre la variable hora (pero fuera del bucle que recorre la variable min) 
+8) Dentro del bucle que recorre la variable hora (pero fuera del bucle que recorre la variable min)
 sumarle uno a hora en cada iteracion y resetear a cero la variable min.
 
 Este ejercicio fue propuesto por el profesor David Aeroesti del curso de pensamiento computacional de platzi.
-El algoritmo y el codigo de resolucion fue hecho por mi.
 """
 
 hora, minu, seg = 0, 0, 0
@@ -31,9 +30,9 @@ while hora < 24:
         while seg < 60:
             print(hora, minu, seg)
             seg += 1
-        
+
         minu += 1
         seg = 0
-    
+
     hora += 1
     minu = 0
