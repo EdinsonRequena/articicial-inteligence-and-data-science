@@ -14,12 +14,18 @@ def factorial(n):
         n int > 0
         returns n!
     """
+
     print(n)
     if n == 1:
         return 1
-    
+
     return n * factorial(n - 1)
 
-a = int(input("Escribe un entero: "))
+def main():
 
-print(factorial(a))
+    a = int(input("Escribe un entero: "))
+    print(factorial(a))
+
+if '__main__' == __name__:
+
+    main()

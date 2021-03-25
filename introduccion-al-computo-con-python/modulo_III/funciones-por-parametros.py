@@ -21,7 +21,7 @@ def aplicar_operacion(funcion, numeros):
     for numero in numeros:
         resultado = funcion(numero)
         resultados.append(resultado)
-    
+
     print(resultados)
 
 if __name__ == '__main__':
