@@ -8,10 +8,12 @@ Alumno: @edinsonrequena.
 
 """
 class Logica:
+
     def aproximacion(self):
+
         objetivo = int(input('Escoge un numero: '))
         epsilon = 0.01
-        paso = epsilon**2 
+        paso = epsilon**2
         respuesta = 0.0
 
         while abs(respuesta**2 - objetivo) >= epsilon and respuesta <= objetivo:
@@ -23,8 +25,8 @@ class Logica:
         else:
             print(f'La raiz cudrada de {objetivo} es {respuesta}')
 
-
     def busqueda(self):
+
         objetivo = int(input('Escoge un numero: '))
         epsilon = 0.01
         bajo = 0.0
@@ -37,13 +39,13 @@ class Logica:
                 bajo = respuesta
             else:
                 alto = respuesta
-            
+
             respuesta = (alto + bajo) / 2
 
         print(f'La raiz cuadrada de {objetivo} es {respuesta}')
 
-
     def enumeracion(self):
+
         objetivo = int(input("Escribe un numero: "))
         respuesta = 0
 
@@ -57,14 +59,16 @@ class Logica:
             print(f'{objetivo} no tiene una raiz cuadrada exacta')
 
 class App:
+
     def cli(self):
+
         print("*"*20 ,"Bienvenido, escribe la pirmera letra del algoritmo a ejecutar", "*"*20)
         print("[A]proximacion")
         print("[B]usqueda Binaria")
         print("[E]numeracion")
 
-
     def run(self):
+
         self.cli()
 
         command = input('Escogeras la letra: ')
@@ -77,5 +81,7 @@ class App:
         elif command == 'E':
             Logica().enumeracion()
 
+
 if __name__ == '__main__':
+
     App().run()
