@@ -21,10 +21,12 @@ def factorial(n):
 
     return n * factorial(n - 1)
 
+
 def main():
 
     a = int(input("Escribe un entero: "))
     print(factorial(a))
+
 
 if '__main__' == __name__:
 
