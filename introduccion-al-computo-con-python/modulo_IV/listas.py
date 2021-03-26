@@ -21,14 +21,14 @@ print(my_list)
 my_list[0] = 'hola' # Modificamos el indice 0 de la lista.
 print(my_list)
 
-my_list.pop() # Quitamos el ultimo indice de la lista. 
+my_list.pop() # Quitamos el ultimo indice de la lista.
 print(my_list)
 
 a = 3
 my_list.insert(1, a) # Aca insertamos el valor de una variable en el indice 1 de la lista.
 print(my_list)
 
-my_list.remove(3) # Remueve el valor del elemento (no el indice). 
+my_list.remove(3) # Remueve el valor del elemento (no el indice).
 # Si el elemento tiene el mismo valor que otro dentro de la lista se removera solo el de menor indice.
 print(my_list)
 
