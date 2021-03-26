@@ -1,7 +1,7 @@
 """
 
 Reto: Imprimir todos los numeros enteros (opuestos a naturales tambien) pares e impares dependiendo del valor n
-que escoja el usuario. 
+que escoja el usuario.
 Le he sumado varios grados de complejidad al enunciado del problema.
 
 Curso: Pensamiento computacional.
@@ -14,8 +14,8 @@ Alumno: @edinsonrequena.
 def pares(numero):
     """ Imprime todos los numeros pares existen entre 0 y n o entre n y 0
 
-        int n 
-        returns n    
+        int n
+        returns n
     """
 
     if numero < 0 and numero % 2 != 0:
@@ -29,8 +29,8 @@ def pares(numero):
             print(i)
 
 def impares(numero):
-    """imprime todo los numeros impares que existen entre 1 y n o entre n y 1 
-    
+    """imprime todo los numeros impares que existen entre 1 y n o entre n y 1
+
         int n
         returns n
     """
