@@ -35,8 +35,10 @@ print(my_other_tuple)
 # a, b, c, d, f = my_other_tuple ValueError: not enough values to unpack (expected 5, got 3)
 # print(my_other_tuple) ValueError: not enough values to unpack (expected 5, got 3)
 
+
 def cooderdenadas_func():
     return (5, 4)
+
 
 cooderdenadas_tuple = cooderdenadas_func()
 print(cooderdenadas_tuple)
