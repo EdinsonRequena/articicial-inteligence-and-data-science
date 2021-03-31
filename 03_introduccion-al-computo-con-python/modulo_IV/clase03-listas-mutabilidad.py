@@ -6,6 +6,11 @@ Plataforma: Platzi.
 Profesor: David Aroesti.
 Alumno: @edinsonrequena.
 
+Append: permite meter un elemento en el ultimo indice de la lista
+pop: permite sacar el ultimo elemento de la lista
+Remove: Remueve un elemento en un indice especifico
+Insert:  Inserta un indice en un indice espefico
+
 """
 
 my_list = [1, 'dos', 3, True, 'cuatro', 5]

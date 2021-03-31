@@ -23,4 +23,4 @@ a.append(5)
 print(a) # Se agrega el elemento 5
 print(b) # Se agrega el elemento 5 tambien porque a y b ocupan el mismo lugar en memoria
 print(c) # Esto podemos verlo como si c fuese una caja que contiene las cajas a y b pero al a y b ocupar el mismo
-         # espacio en memoria cuando se modifica a tambien se modifica b y viceversa.
+            # espacio en memoria cuando se modifica a tambien se modifica b y viceversa.
