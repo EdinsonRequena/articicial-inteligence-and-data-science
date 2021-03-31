@@ -22,7 +22,7 @@ print(id(c)) # Aca podemos ver que ocupan distintos lugares en memoria, lo que q
 a.append(5) # Modificamos a, lo que quiere decir que tambien se modifica b
 print(a)
 print(c) # Aca como podemos ver no se modifica c porque no ocupa el mismo lugar en memoria que a
-            # ya que anteriormente habiamos clonado los elementos
+         # ya que anteriormente habiamos clonado los elementos
 
 d = a [::] # Otra forma de clonar una lista en otra en donde le indicamos que lo hara desde el indice 0 hasta el ultimo.
 print(d)
