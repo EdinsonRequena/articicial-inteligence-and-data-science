@@ -4,7 +4,8 @@ _I update daily._
 
 ### Description
 
-On this repository you can find resources, exercises and concepts ordered by difficulty. It is mainly based on Platzi's Data Science career, but there are also resources taken from my classes at university, Edx courses, freecodecamp, youtube, blogs and exercises created by me.
+Here you can find resources, exercises and concepts ordered by difficulty. The repository is mainly based on Platzi's Data Science career, but there are also resources taken from my classes at university, Edx courses, freecodecamp, youtube, blogs and exercises created by me.
+
 There are still many topics to post. I do my best to upload content every day, if you want to collaborate by adding more exercises or in any other way, you are free to do so.
 
 ### Author ✒️
