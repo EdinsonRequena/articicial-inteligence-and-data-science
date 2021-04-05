@@ -1,0 +1,28 @@
+1) declarar 3 constantes con el nombre de los jugadores y un
+valor de 5
+
+2) inicializar 3 vectores que contengan 5 elementos cada uno
+
+3) los 5 elementos seran la experiencia obtenido en las ulitimas
+5 partidas
+
+4) sacar el promedio de todas esas partidas
+
+	a) Como sacar un promedio?
+		*) sumar todos los valores
+		*) dividir la suma de esos valores entre la cantidad
+		   de valores
+		*) es decir, si son 5 valores se suman esos 5 valores
+		   y se divide entre el numero de esos valores (es decir 5)
+
+6) formula para sacar el promedio en el codigo
+	a) declarar 3 variables que almacenen el resultado de las
+	   ecuaciones
+	b) como hacer que las variables anteriors almacenen el resultado?
+		*) sumar todos los indices del vector
+		*) dividir esa suma entre el numero de indices (en este caso
+		    en especifico sera 5)
+		*) recordar la jerarquia de operaciones
+		*) ejemplo: op = (vec[0] + vec[1]) / 2
+
+7) imprimir el valor de todas las variables que almacenen el resultado de la ecuacion por pantalla!
