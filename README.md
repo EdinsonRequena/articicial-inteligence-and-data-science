@@ -1,12 +1,11 @@
 # Inteligencia artificial y Ciencia de datos 🚀
 
-_Aca podras encontrar desde lo mas fundamental hasta lo mas avanzando con respecto a topicos de IA y ciencia de datos. Lo actualizo a diario._
+_I update daily._
 
 ### Description
 
-Podras encontrar recursos, ejercicios y conceptos ordenados por dificultad. El repositorio se basa principalmente en la carrera de ciencia de datos de platzi pero tambien hay recursos tomados de mis clases en la universidad, cursos en Edx, freecodecamp, youtube, blogs y ejercicios creados por mi.
-Aun falta muchos temas por tocar, hago mi mejor esfuerzo por subir contenido todos los dias, si quieres colaborar agregando mas ejercicios o de cualquier otra forma eres libre de hacerlo.
-
+At this repository you can find resources, exercises and concepts ordered by difficulty. The repository is mainly based on Platzi's Data Science career, but there are also resources taken from my classes at university, Edx courses, freecodecamp, youtube, blogs and exercises created by me.
+There are still many topics to talk about. I do my best to upload content every day, if you want to collaborate by adding more exercises or in any other way, you are free to do so.
 
 ### Author ✒️
 
