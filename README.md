@@ -13,43 +13,22 @@ Here you can find resources, exercises and concepts ordered by difficulty. The r
 
 | Technology | Documentation                                      |
 | ---------- | -------------------------------------------------- |
-| Node       | https://www.npmjs.com/get-npm                      |
-| Yarn       | https://legacy.yarnpkg.com/lang/en/docs/install/   |
-| Prettier   | https://prettier.io/docs/en/install.html           |
-| Eslint     | https://eslint.org/docs/user-guide/getting-started |
+| Python     | https://www.python.org/                            |
+| Jypyter Notebook   | https://jupyter.org/                               |
+| C          | https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-160 |
 
 ---
 
 > Installation
 
 ```sh
-$ yarn install
+$ git clone: https://github.com/EdinsonRequena/articicial-inteligence-and-data-science.git
 ```
 
 ---
 
-> Local
-
-```sh
-$ yarn dev
-```
-
 ---
 
-> Deploy
-
-```
-$ yarn start
-$ yarn build
-```
-
----
-
-> Testing
-
-```sh
-$ yarn test
-```
 ## Issues 🐙
 > Errors
 
@@ -57,13 +36,13 @@ $ yarn test
 
 > FAQ
 ## Collaboration
-<!-- How people can collaborate, tell me more and I can help you -->
-<!-- I recommend this post https://dev.to/doctolib/make-your-first-pull-request-to-an-open-source-project-1m57 -->
+<!-- we can do something like this https://dev.to/doctolib/make-your-first-pull-request-to-an-open-source-project-1m57, for people who have no experience with github -->
 There are still many topics to post. I do my best to upload content every day, if you want to collaborate by adding more exercises or in any other way, you are free to do so.
 
 ## Author & Collaborators ✒️
 
-| Authors: | **Edinson Requena** | **Cristofher Jumbo** |
+<!-- Here Here I don't know how to put the first column -->
+| Contributors: | **Edinson Requena** | **Cristofher Jumbo** |
 | --- | --- | --- |
 | --- | [Github](https://github.com/EdinsonRequena) | [Github](https://github.com/Tonnraus) |
 | --- | [LinkedIn](https://www.linkedin.com/in/edinson-requena-9496a2178) | [LinkedIn](https://www.linkedin.com/in/cristofher-jumbo-jimenez/) |
@@ -77,4 +56,4 @@ There are still many topics to post. I do my best to upload content every day, i
 
 
 ---
-from Venezuela with ❤️ for the world
+from LATAM with ❤️ for the world
