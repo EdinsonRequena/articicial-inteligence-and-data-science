@@ -8,7 +8,7 @@ Alumno: @edinsonrequena.
 
 """
 
-elements = list(range(100)) # Creamos una elements con elementos que esten en el rango de 0 a 99.
+elements = list(range(100)) # Creamos una lista con elementos que esten en el rango de 0 a 99.
 print(elements)
 
 double = [i * 2 for i in elements] # Multiplicamos por 2 los elementos de la elements.
