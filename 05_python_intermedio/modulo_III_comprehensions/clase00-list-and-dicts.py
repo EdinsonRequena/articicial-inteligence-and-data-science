@@ -9,6 +9,7 @@ Alumno: @edinsonrequena.
 """
 
 def main():
+
     my_list = [1, 'hey!', False, 35.2]
     my_dict = {'First name': 'Edinson', 'La t_name': 'Requena'}
 
