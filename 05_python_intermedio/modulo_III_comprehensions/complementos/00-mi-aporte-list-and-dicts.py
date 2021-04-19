@@ -6,6 +6,7 @@ alumno: @edinsonrequena
 
 """
 
+
 class App:
 
     def lists_and_dicts(self):
@@ -27,17 +28,18 @@ class App:
 
         self.lists_and_dicts()
 
-        {print(k, '-' ,v) for k, v in self.super_dict.items()} # Imprime las llaves y valores
-        {print(k) for k in self.super_dict.keys()} # Imprime solo las llaves
-        {print(v) for v in self.super_dict.values()} # Imprime solo los valores
+        {print(k, '-', v) for k, v in self.super_dict.items()}  # Imprime las llaves y valores
+        {print(k) for k in self.super_dict.keys()}  # Imprime solo las llaves
+        {print(v) for v in self.super_dict.values()}  # Imprime solo los valores
 
     def list_comprehensions(self):
 
         self.lists_and_dicts()
 
-        [print(item) for item in self.super_list] # Imprime toda la lista
-        [print(name['First name']) for name in self.super_list] # Imprime todos los nombres
-        [print(last['Last name']) for last in self.super_list] # Imprime todos los apellidos
+        [print(item) for item in self.super_list]  # Imprime toda la lista
+        [print(name['First name']) for name in self.super_list]  # Imprime todos los nombres
+        [print(last['Last name']) for last in self.super_list]  # Imprime todos los apellidos
+        [print(i['First name'], '-', i['Last name']) for i in self.super_list]  # Imprime nombre y apellidos
 
     def run(self):
 
