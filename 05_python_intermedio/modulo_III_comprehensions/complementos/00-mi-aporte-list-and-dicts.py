@@ -38,6 +38,7 @@ class App:
         [print(item) for item in self.super_list] # Imprime toda la lista
         [print(name['First name']) for name in self.super_list] # Imprime todos los nombres
         [print(last['Last name']) for last in self.super_list] # Imprime todos los apellidos
+        [print(i['First name'], '-', i['Last name']) for i in self.super_list] # Imprime nombre y apellidos
 
     def run(self):
 
