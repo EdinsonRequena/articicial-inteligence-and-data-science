@@ -14,4 +14,3 @@ def func_impar():
 
     print(arr)
 
-func_impar()
