@@ -10,6 +10,7 @@ from par import func_par
 from impar import func_impar
 from reto import func_reto
 
+
 def main():
 
     #  From squares
