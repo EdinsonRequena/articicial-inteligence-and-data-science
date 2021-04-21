@@ -12,11 +12,13 @@ super_dict = {
     'Racional Numbers': [4.23, 20/5, 10/2],
 }
 
+
 def dict_comprehensions(super_dict):
 
     {print(k, '-', v) for k, v in super_dict.items()}
     {print(k) for k in super_dict.keys()}
     {print(v) for v in super_dict.values()}
+
 
 def list_comprehensions(super_list):
 
@@ -24,6 +26,7 @@ def list_comprehensions(super_list):
     [print(name['First name']) for name in super_list]
     [print(last['Last name']) for last in super_list]
     [print(i['First name'], '-', i['Last name']) for i in super_list]
+
 
 if __name__ == '__main__':
 
