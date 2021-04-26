@@ -1,6 +1,6 @@
 """
 
-Tema: Funciones Lambda, parte 1
+Tema: Funciones Lambda
 Curso: Python intermedio.
 Plataforma: Platzi.
 Profesor: Facundo García Martoni.
