@@ -17,5 +17,11 @@ cubo = lambda x: x**3
 #  Elevar un numero al cuadrado
 cuadrado = lambda x: x**2
 
+#  Sumar dos numeros
+suma = lambda x, y: x + y
+
+#  Restar dos numeros
+resta = lambda x, y: x - y
+
 # Reto
 desctacar = lambda string: f'{string}$ !!!'
