@@ -3,7 +3,7 @@
 Tema: Funciones Lambda
 Curso: Python.
 Plataforma: Youtube.
-Profesor: Juan Diaz (Pildoras informaticas).
+Profesor: Juan Diaz (Pildoras informaticas)
 Alumno: @edinsonrequena.
 
 """
