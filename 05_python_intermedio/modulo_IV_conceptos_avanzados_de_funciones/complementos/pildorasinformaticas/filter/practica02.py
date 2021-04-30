@@ -29,4 +29,5 @@ listaEmpleados = [
 ]
 
 salarios_altos = filter(lambda empleado: empleado.salario > 5000, listaEmpleados)
+
 [print(i) for i in salarios_altos]
