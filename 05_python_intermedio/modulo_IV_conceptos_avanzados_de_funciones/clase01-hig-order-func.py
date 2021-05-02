@@ -18,7 +18,7 @@ print(odd_list)
 #  odd_filter = list(filter(lambda x: x % 2, my_list))
 #  odd_filter = list(filter(lambda x: x % 2 != False, my_list))
 odd_filter = list(filter(lambda x: x % 2 != 0, my_list))
-print(odd_filter) # Filter aplica una condicion
+print(odd_filter) #  Filter aplica una condicion
 
 #  Devolver el cuadrado de los numeros en la lista con list comprehension
 square_list = [i**2 for i in my_list]
@@ -26,7 +26,7 @@ print(square_list)
 
 #  Devolver el cuadrado de los numeros en la lista con map
 square_map = list(map(lambda x: x**2, my_list))
-print(square_map) # Map aplica una funcion
+print(square_map) #  Map aplica una funcion
 
 #  Devolver la multiplicacion de todos los mumeros dentro de la lista
 mult = 1
