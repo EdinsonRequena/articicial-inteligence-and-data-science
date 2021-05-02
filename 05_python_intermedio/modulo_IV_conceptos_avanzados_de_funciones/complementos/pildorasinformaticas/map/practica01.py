@@ -24,6 +24,6 @@ listaEmpleados = [
     Empleado('Tes2', 'Dev', 3000),
 ]
 
-listaEmpleadosComision = [i.salario for i in listaEmpleados if i.salario <= 3000]
+listaEmpleadosComision = [i.salario for i in listaEmpleados if i.salario <= 3000] #  Meto dentro de listaEmpleadosComision solo a los elementos de listaEmpleados cuyo salario sea menor a 3000
 listaMapeada = map(lambda arg: arg * 1.03, listaEmpleadosComision)
 [print(i) for i in listaMapeada]
