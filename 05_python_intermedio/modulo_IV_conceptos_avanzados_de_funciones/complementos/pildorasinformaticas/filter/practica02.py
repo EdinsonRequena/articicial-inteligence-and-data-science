@@ -28,6 +28,6 @@ listaEmpleados = [
     Empleado('Tes2', 'Dev', 2000),
 ]
 
-salarios_altos = filter(lambda empleado: empleado.salario > 5000, listaEmpleados)
+salarios_altos = filter(lambda arg: arg.salario > 5000, listaEmpleados)
 
 [print(i) for i in salarios_altos]
