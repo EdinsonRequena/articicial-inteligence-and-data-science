@@ -1,6 +1,6 @@
 """
 
-Tema: Filter
+Tema: Map (Sin lambda)
 Curso: Python.
 Plataforma: Youtube.
 Profesor: Juan Diaz (Pildoras informaticas).
@@ -24,10 +24,17 @@ class Empleado:
 listaEmpleados = [
     Empleado('Andrea', 'Dev', 7500),
     Empleado('Ed', 'Dev', 10000),
-    Empleado('Test', 'Dev', 5500),
+    Empleado('Test', 'Dev', 2500),
     Empleado('Tes2', 'Dev', 2000),
+    Empleado('Tes2', 'Dev', 3000),
 ]
 
-salarios_altos = filter(lambda arg: arg.salario > 5000, listaEmpleados)
+def aumentoComision(arg):
 
-[print(i) for i in salarios_altos]
+    if arg.salario <= 3000:
+        arg.salario *= 1.03
+
+    return arg
+
+listaEmpleadosComision = map(aumentoComision, listaEmpleados)
+[print(i) for i in listaEmpleadosComision]

@@ -1,11 +1,6 @@
 """
-
-Tema: Filter
-Curso: Python.
-Plataforma: Youtube.
-Profesor: Juan Diaz (Pildoras informaticas).
-Alumno: @edinsonrequena.
-
+Mi Aporte!
+Tema: Map (Con lambda)
 """
 
 class Empleado:
@@ -24,10 +19,11 @@ class Empleado:
 listaEmpleados = [
     Empleado('Andrea', 'Dev', 7500),
     Empleado('Ed', 'Dev', 10000),
-    Empleado('Test', 'Dev', 5500),
+    Empleado('Test', 'Dev', 2500),
     Empleado('Tes2', 'Dev', 2000),
+    Empleado('Tes2', 'Dev', 3000),
 ]
 
-salarios_altos = filter(lambda arg: arg.salario > 5000, listaEmpleados)
-
-[print(i) for i in salarios_altos]
+listaEmpleadosComision = [i.salario for i in listaEmpleados if i.salario <= 3000] #  Meto dentro de listaEmpleadosComision solo a los elementos de listaEmpleados cuyo salario sea menor a 3000
+listaMapeada = map(lambda arg: arg * 1.03, listaEmpleadosComision)
+[print(i) for i in listaMapeada]
