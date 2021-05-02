@@ -2,12 +2,17 @@
 Main Moduel
 """
 
+from map_file import square
+from filter_file import odd
+from reduce_file import mult
+
+
 def main():
 
-    func_filter()
-    func_map()
+    print(odd)
+    print(square)
+    print(mult)
 
-
-if __main__ == '__name__':
+if __name__ == '__main__':
 
     main()
