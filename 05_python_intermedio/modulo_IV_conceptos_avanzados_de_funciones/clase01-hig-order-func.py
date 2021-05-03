@@ -8,6 +8,8 @@ Alumno: @edinsonrequena.
 
 """
 
+my_list = [3, 4, 6, 7, 45, 32, 3, 10]
+
 #  Devolver los impares con list comprehensions
 odd_list = [i for i in my_list if i % 2 != 0]
 print(odd_list)

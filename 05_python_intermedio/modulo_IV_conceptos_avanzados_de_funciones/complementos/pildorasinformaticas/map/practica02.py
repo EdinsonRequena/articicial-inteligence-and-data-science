@@ -1,6 +1,6 @@
 """
 Mi Aporte!
-Tema: Map (Con lambda sin operador ternario)
+Tema: Map (Con lambda y operador ternario)
 """
 
 
@@ -25,6 +25,5 @@ listaEmpleados = [
     Empleado('Tes2', 'Dev', 3000),
 ]
 
-listaEmpleadosComision = [i.salario for i in listaEmpleados if i.salario <= 3000]  #  Meto dentro de listaEmpleadosComision solo a los elementos de listaEmpleados cuyo salario sea menor a 3000
-listaMapeada = map(lambda arg: arg * 1.03, listaEmpleadosComision)
+listaMapeada = map(lambda arg: arg.salario * 1.03 if arg.salario <= 3000 else arg, listaEmpleados)
 [print(i) for i in listaMapeada]
