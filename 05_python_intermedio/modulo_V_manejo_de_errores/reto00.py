@@ -12,22 +12,25 @@ def divisor(num):
 
     divisor_list = []
 
-    try:
-        if type(num) != int :
-            raise ValueError('Solo ingresar numeros')
-        for i in range(1, num + 1):
-            if num % i == 0:
-                divisor_list.append(i)
-        return divisor_list
-    except ValueError as ve:
-        print(ve)
+    for i in range(1, num + 1):
+        if num % i == 0:
+            divisor_list.append(i)
+
+    return divisor_list
 
 
 def main():
 
-    num = int(input('type number: '))
-    print(divisor(num))
-    print('The program finally')
+        try:
+            num = int(input('type number: '))
+            if len(divisor(num)) == 0:
+                raise EOFError('No se pueden ingresar numeros negavtivos')
+            print(divisor(num))
+            print('The program finally')
+        except EOFError as e:
+            print(e)
+        except ValueError:
+            print('Solo puedes ingresar un numero')
 
 
 if __name__ == '__main__':
