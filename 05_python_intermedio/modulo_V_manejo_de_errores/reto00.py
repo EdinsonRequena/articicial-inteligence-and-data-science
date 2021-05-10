@@ -24,11 +24,13 @@ def main():
         try:
             num = int(input('type number: '))
             if len(divisor(num)) == 0:
-                raise ValueError('No se pueden ingresar numeros negavios')
+                raise EOFError('No se pueden ingresar numeros negavtivos')
             print(divisor(num))
             print('The program finally')
-        except ValueError as e:
+        except EOFError as e:
             print(e)
+        except ValueError:
+            print('Solo puedes ingresar un numero')
 
 
 if __name__ == '__main__':
