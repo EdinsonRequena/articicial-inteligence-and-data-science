@@ -28,13 +28,6 @@ $ git clone: https://github.com/EdinsonRequena/articicial-inteligence-and-data-s
 ---
 
 ---
-
-## Issues 🐙
-> Errors
-
-> Bugs
-
-> FAQ
 ## Collaboration
 <!-- we can do something like this https://dev.to/doctolib/make-your-first-pull-request-to-an-open-source-project-1m57, for people who have no experience with github -->
 There are still many topics to post. I do my best to upload content every day, if you want to collaborate by adding more exercises or in any other way, you are free to do so.
