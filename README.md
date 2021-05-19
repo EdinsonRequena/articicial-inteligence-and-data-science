@@ -17,15 +17,6 @@ Here you can find resources, exercises and concepts ordered by difficulty. The r
 | Jypyter Notebook   | https://jupyter.org/                               |
 | C          | https://docs.microsoft.com/en-us/cpp/c-language/?view=msvc-160 |
 
----
-
-> Installation
-
-```sh
-$ git clone: https://github.com/EdinsonRequena/articicial-inteligence-and-data-science.git
-```
-
----
 
 ---
 ## Collaboration
