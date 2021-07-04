@@ -11,7 +11,7 @@ def func_list() -> list:
 
     list1 = list()
     list2 = [False, any, 'Hola', 5, 3.45]
-    list3 = [n**2 for n in range(1, 100) if n%2 == 0]
+    list3 = [n**2 for n in range(1, 100) if n % 2 == 0]
 
     print(list1)
     print(list2)
