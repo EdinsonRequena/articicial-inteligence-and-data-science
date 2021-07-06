@@ -78,19 +78,24 @@ class Array(object):
         """
         returns the array with de new element
         """
-        arr = self.items
-        for i in range(len(arr)):
-            if arr[i] == index:
-                arr[i] = [item]
-        return arr
-        #return arr[:index] + [item] + arr[index:]
+        return arr[:index] + [item] + arr[index:]
 
     def __append__(self, item):
         """
-        returns the array with de new element
+        returns the array with de new element at the end
         """
-        elements = self.items
-        return elements[:] + [item]
+        arr = self.items
+        return arr[:] + [item]
+
+
+    def __pop__(self, index):
+        """
+        returns the array without the select element
+        """
+        arr = self.items
+        arr.pop(index)
+        return arr
+
 
 if __name__ == '__main__':
 
@@ -98,8 +103,9 @@ if __name__ == '__main__':
     print(len(arr))
     print(arr)
     print(arr.__fillslots__())
+    print(arr.__pop__(2))
     print(arr.__add__(3, 'chao'))
-    #print(arr.__append__('hola'))
+    print(arr.__append__('hola'))
     print(arr.__sumlements__())
 """     print(arr)
     print(arr.__len__())
