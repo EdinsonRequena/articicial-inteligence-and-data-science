@@ -6,6 +6,7 @@ Profesor: Hector Vega.
 Alumno: @edinsonrequena.
 """
 
+
 class Array(object):
     """
     Create a own Array
@@ -38,25 +39,69 @@ class Array(object):
             yield current
             current += 1
 
-    def __getitem__(self, index):
+    def __getitem__(self, index: any) -> any:
         """
-        method to get a specific index
+        retunr a specific index
         """
         return self.items[index]
 
     def __setitem__(self, index, new_item):
         """
-        Method to set item in a specific index
+        set item in a specific index
         """
         self.items[index] = new_item
         return self.items
 
-arr = Array(5)
-print(len(arr))
-print(arr)
-for i in range(len(arr)):
-    arr[i] = i + 1
-print(arr)
-print(arr.__len__())
-print(arr.__getitem__(3))
-print(arr.__setitem__(1, 'hola'))
+    def __fillslots__(self):
+        """
+        return a sequence of numbers according to the array's length
+        """
+        slots = self.items
+        for i in range(len(slots)):
+            slots[i] = i + 1
+        return slots
+
+    def __sumlements__(self) -> list or None:
+        """
+        return the sum of all array's elements if and only if the elements are integers
+        """
+        arr = self.items
+        try:
+            for i in range(len(arr)):
+                if type(arr[i]) != int:
+                    raise TypeError('Solo se pueden sumar enteros')
+            return sum(arr)
+        except TypeError as e:
+            print(e)
+
+    def __add__(self, index, item):
+        """
+        returns the array with de new element
+        """
+        arr = self.items
+        for i in range(len(arr)):
+            if arr[i] == index:
+                arr[i] = [item]
+        return arr
+        #return arr[:index] + [item] + arr[index:]
+
+    def __append__(self, item):
+        """
+        returns the array with de new element
+        """
+        elements = self.items
+        return elements[:] + [item]
+
+if __name__ == '__main__':
+
+    arr = Array(5)
+    print(len(arr))
+    print(arr)
+    print(arr.__fillslots__())
+    print(arr.__add__(3, 'chao'))
+    #print(arr.__append__('hola'))
+    print(arr.__sumlements__())
+"""     print(arr)
+    print(arr.__len__())
+    print(arr.__getitem__(3))
+    print(arr.__setitem__(1, 'hola')) """
