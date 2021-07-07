@@ -87,27 +87,15 @@ class Array(object):
         arr = self.items
         return arr[:] + [item]
 
-
     def __pop__(self, index):
         """
         returns the array without the select element
         """
         arr = self.items
-        arr.pop(index)
+        arr.pop()
         return arr
 
 
 if __name__ == '__main__':
 
     arr = Array(5)
-    print(len(arr))
-    print(arr)
-    print(arr.__fillslots__())
-    print(arr.__pop__(2))
-    print(arr.__add__(3, 'chao'))
-    print(arr.__append__('hola'))
-    print(arr.__sumlements__())
-"""     print(arr)
-    print(arr.__len__())
-    print(arr.__getitem__(3))
-    print(arr.__setitem__(1, 'hola')) """
