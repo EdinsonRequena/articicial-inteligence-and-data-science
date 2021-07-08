@@ -12,7 +12,7 @@ class Array(object):
     Create a own Array
     """
 
-    def __init__(self, capacity: int, fill_value = None) -> None:
+    def __init__(self, capacity: int, fill_value=None) -> None:
         self.items = list()
         for i in range(capacity):
             self.items.append(fill_value)

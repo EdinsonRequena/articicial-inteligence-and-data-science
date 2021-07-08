@@ -4,7 +4,7 @@ class Array(object):
     Create a own Array
     """
 
-    def __init__(self, capacity: int, fill_value = None) -> None:
+    def __init__(self, capacity: int, fill_value=None) -> None:
         self.items = list()
         for i in range(capacity):
             self.items.append(fill_value)
@@ -55,7 +55,7 @@ class Array(object):
 
     def __sumlements__(self) -> list or None:
         """
-        return the sum of all array's elements if and only if the elements are integers
+        return the sum of all array's elements only if the elements are integers
         """
         arr = self.items
         try:
