@@ -18,7 +18,7 @@ class Array2D:
     def get_width(self) -> int:
         """Returns the Arrays's width"""
         cols = self.data[0]
-        res: int = 0 # Probando nuevos features de python 3.9
+        res: int = 0 #  Probando nuevos features de python 3.9
         for i in cols:
             res += 1
         return res
