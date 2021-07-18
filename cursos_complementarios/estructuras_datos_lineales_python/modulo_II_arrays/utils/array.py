@@ -6,11 +6,8 @@ Profesor: Hector Vega.
 Alumno: @edinsonrequena.
 """
 
-
 class Array(object):
-    """
-    Create a own Array
-    """
+    """Array"""
 
     def __init__(self, capacity: int, fill_value=None) -> None:
         self.items = list()
@@ -41,7 +38,7 @@ class Array(object):
 
     def __getitem__(self, index: any) -> any:
         """
-        retunr a specific index
+        returns a specific index
         """
         return self.items[index]
 
@@ -78,6 +75,7 @@ class Array(object):
         """
         returns the array with de new element
         """
+        arr = self.items
         return arr[:index] + [item] + arr[index:]
 
     def __append__(self, item):
@@ -94,8 +92,3 @@ class Array(object):
         arr = self.items
         arr.pop()
         return arr
-
-
-if __name__ == '__main__':
-
-    arr = Array(5)
