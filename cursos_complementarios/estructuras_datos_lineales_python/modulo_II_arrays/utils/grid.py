@@ -6,13 +6,12 @@ Profesor: Hector Vega.
 Alumno: @edinsonrequena.
 """
 
-from .array import *
-import random
+from .array import Array
 
 class Grid(object):
     """Two dimensional Array """
 
-    def __init__(self, nrows, ncols, value=None):
+    def __init__(self, nrows, ncols, value=None) -> None:
         """Initializes the Arrays with nrows, ncols and optional value"""
         self.data = Array(nrows)
         for nrow in range(nrows):
@@ -36,11 +35,21 @@ class Grid(object):
 
     def __getrow__(self, index) -> any:
         """Returns the index-th row"""
-        return self.data[index]
+        try:
+            if index == 0:
+                raise IndexError('Index out of range')
+            return self.data[index - 1]
+        except IndexError as e:
+            print(e)
 
     def __getelement__(self, index_x, index_y) -> any:
         """Returns the value of the index (x,y)"""
-        return self.data[index_x - 1][index_y - 1]
+        try:
+            if index_x == 0 or index_y == 0:
+                raise IndexError('Index out of range')
+            return self.data[index_x][index_y]
+        except IndexError as e:
+            print(e)
 
     def __str__(self) -> str:
         """Returns string representation of the grid"""
@@ -56,4 +65,4 @@ class Grid(object):
         """Fills the array with random values"""
         for nrow in range(self.__getheight__()):
             for ncol in range(self.__getwidth__()):
-                self.data[nrow][ncol] = random.randint(0, 100)
+                self.data[nrow][ncol] = nrow * ncol
