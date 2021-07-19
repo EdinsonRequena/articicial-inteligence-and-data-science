@@ -8,6 +8,7 @@ Alumno: @edinsonrequena.
 
 from .array import Array
 
+
 class Grid(object):
     """Two dimensional Array """
 
