@@ -4,7 +4,7 @@ from utils.grid import Grid
 from utils.cube import Cube
 
 if __name__ == '__main__':
-    cube = Cube(3,3,3)
+    cube = Cube(3, 3, 3)
     print(cube)
     print('*************')
     grid = Grid(5, 3)

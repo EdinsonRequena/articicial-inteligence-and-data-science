@@ -2,6 +2,7 @@
 from .array import Array
 from .grid import Grid
 
+
 class Cube(object):
     """three-dimensional array"""
 
