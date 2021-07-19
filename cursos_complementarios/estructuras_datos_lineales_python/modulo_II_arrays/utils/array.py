@@ -7,7 +7,7 @@ Alumno: @edinsonrequena.
 """
 
 class Array(object):
-    """Array"""
+    """A simple array"""
 
     def __init__(self, capacity: int, fill_value=None) -> None:
         self.items = list()
