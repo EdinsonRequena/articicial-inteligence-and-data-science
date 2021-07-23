@@ -1,5 +1,6 @@
 from node import Node
 
+
 class SingleLinkedList:
     """Create a Single Linked List """
 
@@ -75,6 +76,7 @@ class SingleLinkedList:
         self.head = None
         self.tail = None
         self.size = 0
+
 
 if __name__ == '__main__':
 
