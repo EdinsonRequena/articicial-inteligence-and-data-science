@@ -73,10 +73,38 @@ class SingleLinkedList:
 
     def clear(self):
         """Clear the list"""
+
         self.head = None
         self.tail = None
         self.size = 0
 
+    def set_new_item(self, item, index):
+        """Set a new item in the list on a specific position"""
+
+        current = self.head
+        previous = None
+        for i in range(index):
+            previous = current
+            current = current.next
+        if previous is None:
+            self.head = Node(item)
+            self.head.next = current
+        else:
+            previous.next = Node(item)
+            previous.next.next = current
+        self.size += 1
+
+    def remove_a_specific_item(self, index):
+        """Remove a specific item from the list"""
+
+        current = self.head
+        previous = None
+        for i in range(index):
+            previous = current
+            current = current.next
+        if previous is None: self.head = current.next
+        else: previous.next = current.next
+        self.size -= 1
 
 if __name__ == '__main__':
 
@@ -86,10 +114,11 @@ if __name__ == '__main__':
     sll.append(3.14)
     sll.append('Hola')
     current = sll.tail
+    sll.set_new_item('andrea', 2)
 
     for node in sll.iter():
         print(node.data)
-
-    print(sll.size)
-    sll.search('hey').data
-    sll.search('545').data
+    print('*'*5)
+    sll.remove_a_specific_item(2)
+    for node in sll.iter():
+        print(node.data)
