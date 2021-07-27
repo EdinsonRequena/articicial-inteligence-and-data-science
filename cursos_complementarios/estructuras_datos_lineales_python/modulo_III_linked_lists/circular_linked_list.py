@@ -30,9 +30,9 @@ class CircularLinkedList:
         """String representation of the list"""
         return " ".join([str(node) for node in self.iter()])
 
+
 if __name__ == '__main__':
 
     cll = CircularLinkedList()
     cll.add(1)
     print(cll.head.next.data)
-
