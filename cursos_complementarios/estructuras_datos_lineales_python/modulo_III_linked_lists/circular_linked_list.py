@@ -1,4 +1,3 @@
-from typing import Any
 from node import Node
 
 
