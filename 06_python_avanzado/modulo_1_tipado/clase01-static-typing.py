@@ -13,6 +13,7 @@ c: bool = True
 def add(a: int, b: int) -> int:
     return a + b
 
+
 # Example 3
 positives_numbers: List[int] = [1, 2, 3, 4, 6, 6, 7, 8]
 
@@ -47,7 +48,7 @@ coordinates: CoordinatesType = [
         'place1': (4, 5, msg),
         'place2': (10, 45, msg),
     },
-        {
+    {
         'place1': (42, 555, msg),
         'place2': (104, 945, msg),
     },
