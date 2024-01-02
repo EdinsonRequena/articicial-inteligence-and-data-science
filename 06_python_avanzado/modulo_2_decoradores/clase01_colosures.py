@@ -9,7 +9,7 @@ Edinson, 4 -> EdinsonEdinsonEdinsonEdinson
 from typing import Callable
 
 
-def make_repeater_of(n: int) -> Callable:
+def make_repeater_of(n: int) -> Callable[[str], str]:
     """
     Returns a function that repeats a given word n times.
 
