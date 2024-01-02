@@ -19,7 +19,7 @@ def make_repeater_of(n: int) -> Callable[[str], str]:
     Returns:
     Callable: A function that takes a word as input and repeats it n times.
     """
-    def repeater(word: str):
+    def repeater(word: str) -> str:
         assert isinstance(word, str), 'Word should be a string'
         return word * n
     return repeater
