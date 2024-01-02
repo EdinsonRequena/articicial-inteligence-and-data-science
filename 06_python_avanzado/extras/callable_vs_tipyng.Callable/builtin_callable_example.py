@@ -23,9 +23,9 @@ class MiClase:
 objeto_normal = MiClase()
 objeto_no_invocable = 5
 
-print(callable(mi_funcion))            # Salida: True
-print(callable(objeto_normal))         # Salida: True
-print(callable(objeto_no_invocable))   # Salida: False
+print(callable(mi_funcion))  # Salida: True
+print(callable(objeto_normal))  # Salida: True
+print(callable(objeto_no_invocable))  # Salida: False
 
 
 # Ejemplo 2
