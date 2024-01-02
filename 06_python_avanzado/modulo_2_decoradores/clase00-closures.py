@@ -1,9 +1,12 @@
 """
-- Los closures son funciones que retornan otras funciones, es decir, una función que retorna un closure, retorna una función.
+- Los closures son funciones que retornan otras funciones,
+es decir, una función que retorna un closure, retorna una función.
 
-- Los closures son funciones que pueden acceder a variables que no están definidas dentro de ellas mismas, sino en el ámbito (scope) en el que fueron creadas.
+- Los closures son funciones que pueden acceder a variables que no están definidas dentro de ellas mismas,
+sino en el ámbito (scope) en el que fueron creadas.
 
-- Los closures son funciones que recuerdan el estado de las variables al momento de ser invocadas, y conservan este estado a través de reiteradas ejecuciones.
+- Los closures son funciones que recuerdan el estado de las variables al momento de ser invocadas,
+y conservan este estado a través de reiteradas ejecuciones.
 Es decir, el scope de las variables no se reinicia con cada llamado de la función, sino que se conserva.
 """
 
@@ -45,7 +48,8 @@ print(result)  # Output: 8
 
 def outer_function(message):
     """
-    Esta es la función externa que toma un mensaje como entrada y devuelve una función interna.
+    Esta es la función externa que toma un mensaje como entrada y
+    devuelve una función interna.
     La función interna imprime el mensaje cuando se llama.
     """
 
