@@ -10,6 +10,8 @@ b: str = 'I am a string'
 c: bool = True
 
 # Example 2
+
+
 def add(a: int, b: int) -> int:
     return a + b
 
