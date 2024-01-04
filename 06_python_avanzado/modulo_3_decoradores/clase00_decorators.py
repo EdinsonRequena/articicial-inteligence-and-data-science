@@ -15,6 +15,8 @@ o puede tener una etiqueta especial que dice que el regalo debe ser abierto de u
 El regalo en sí mismo no cambia, pero la forma en que se presenta y se utiliza sí puede variar gracias a la caja.
 """
 
+# Ejemplo 1
+
 
 def decorador(funcion):
     def envoltura():
@@ -35,3 +37,20 @@ mi_funcion()
 # ¡Algo antes de ejecutar la función!
 # ¡La función está siendo ejecutada!
 # ¡Algo después de ejecutar la función!
+
+# Ejemplo 2
+
+
+def uppercase(func):
+    def wrapper():
+        result = func()
+        return result.upper()
+    return wrapper
+
+
+@uppercase
+def say_hi():
+    return 'hello there'
+
+
+print(say_hi())  # HELLO THERE
